@@ -1,0 +1,67 @@
+name: NEXUSMIND CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install backend
+        run: |
+          cd backend
+          pip install -r requirements.txt
+      - name: Compile backend
+        run: |
+          cd backend
+          python -m compileall app
+      - name: Run backend tests
+        run: |
+          cd backend
+          pytest -q
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install frontend
+        run: |
+          cd frontend
+          npm ci
+      - name: Check frontend
+        run: |
+          cd frontend
+          npm run typecheck
+          npm run lint
+          npm run build
+
+  infrastructure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build production container images
+        run: |
+          docker build -t nexusmind-api:ci backend
+          docker build -t nexusmind-web:ci frontend
+      - name: Validate production manifests
+        run: |
+          test -f infra/docker/docker-compose.yml
+          test -f infra/nginx/nexusmind.conf
+          test -f infra/k8s/ingress.yaml
+          test -f infra/azure/container-apps.bicep
+          ! grep -R "image: .*:latest" infra/k8s
+          ! grep -R 'DEMO_PASSWORD = process.env.DEMO_PASSWORD ?? "nexusmind-demo"' frontend/src/app/api
+          grep -R "runAsNonRoot: true" infra/k8s
+          grep -qi "kafka" infra/docker/docker-compose.yml
+          grep -qi "spark" infra/docker/docker-compose.yml
+          grep -qi "neo4j" infra/docker/docker-compose.yml

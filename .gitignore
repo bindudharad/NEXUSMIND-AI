@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Builds
+.next/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+backend/app/ai/artifacts/*.joblib
+backend/app/ai/artifacts/*.pt
+backend/app/ai/artifacts/**/*.joblib
+backend/app/ai/artifacts/**/*.pt
+backend/app/ai/artifacts/**/*.safetensors
+backend/app/ai/artifacts/**/*.keras
+backend/app/ai/artifacts/*_metrics.json
+backend/app/data/*.jsonl
+backend/app/data/interview_reports/
+
+# Environment
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Logs
+*.log
+npm-debug.log*
+.runtime-logs/
+.codex-smoke/
+
+# Generated screenshots / local capture artifacts
+*.png
+*.dom.html
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

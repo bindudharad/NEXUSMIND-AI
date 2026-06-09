@@ -1,0 +1,52 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nexusmind-infra-config
+data:
+  POSTGRES_DSN: "postgresql+psycopg://nexusmind:nexusmind@nexusmind-postgres:5432/nexusmind"
+  MONGO_URI: "mongodb://nexusmind-mongodb:27017"
+  REDIS_URL: "redis://nexusmind-redis:6379/0"
+  QDRANT_URL: "http://nexusmind-qdrant:6333"
+  NEO4J_URI: "bolt://nexusmind-neo4j:7687"
+  KAFKA_BOOTSTRAP_SERVERS: "nexusmind-kafka:9092"
+  SPARK_MASTER_URL: "spark://nexusmind-spark-master:7077"
+  VECTOR_COLLECTION: "nexusmind-enterprise-memory"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nexusmind-stream-worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nexusmind-stream-worker
+  template:
+    metadata:
+      labels:
+        app: nexusmind-stream-worker
+    spec:
+      containers:
+        - name: stream-worker
+          image: ghcr.io/nexusmind-ai/nexusmind-api:2026.06.02-enterprise
+          imagePullPolicy: Always
+          command: ["python", "-m", "app.workers.realtime"]
+          envFrom:
+            - configMapRef:
+                name: nexusmind-infra-config
+            - secretRef:
+                name: nexusmind-api-secrets
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "2Gi"
+          securityContext:
+            allowPrivilegeEscalation: false
+            runAsNonRoot: true
+            runAsUser: 999
+            capabilities:
+              drop:
+                - ALL

@@ -1,0 +1,5460 @@
+{
+  "generated_at": "2026-06-08T16:54:26.207193+00:00",
+  "graph_database": "Embedded JSON Graph Store + NetworkX Query Layer",
+  "nodes": [
+    {
+      "id": "client:northstar-retail",
+      "label": "Northstar Retail",
+      "node_type": "client",
+      "department": null,
+      "team": null,
+      "risk_score": 88.27,
+      "influence_score": 3.79,
+      "knowledge_score": 0.0,
+      "x": 330.33,
+      "y": 533.08,
+      "metadata": {
+        "industry": "Retail",
+        "health": 45.89,
+        "revenue_at_risk": 3001334.24
+      }
+    },
+    {
+      "id": "client:vertex-logistics",
+      "label": "Vertex Logistics",
+      "node_type": "client",
+      "department": null,
+      "team": null,
+      "risk_score": 53.17,
+      "influence_score": 3.79,
+      "knowledge_score": 0.0,
+      "x": 652.19,
+      "y": 389.72,
+      "metadata": {
+        "industry": "Logistics",
+        "health": 64.55,
+        "revenue_at_risk": 850800.0
+      }
+    },
+    {
+      "id": "client:helio-health",
+      "label": "Helio Health",
+      "node_type": "client",
+      "department": null,
+      "team": null,
+      "risk_score": 35.43,
+      "influence_score": 3.79,
+      "knowledge_score": 0.0,
+      "x": 168.24,
+      "y": 92.44,
+      "metadata": {
+        "industry": "Healthcare",
+        "health": 74.98,
+        "revenue_at_risk": 744009.0
+      }
+    },
+    {
+      "id": "client:acme-bank",
+      "label": "Acme Bank",
+      "node_type": "client",
+      "department": null,
+      "team": null,
+      "risk_score": 21.03,
+      "influence_score": 3.79,
+      "knowledge_score": 0.0,
+      "x": 131.22,
+      "y": 454.79,
+      "metadata": {
+        "industry": "Financial Services",
+        "health": 86.94,
+        "revenue_at_risk": 1093664.0
+      }
+    },
+    {
+      "id": "team:executive",
+      "label": "Executive",
+      "node_type": "team",
+      "department": "Executive",
+      "team": "Executive",
+      "risk_score": 55.0,
+      "influence_score": 20.55,
+      "knowledge_score": 0.0,
+      "x": 370.17,
+      "y": 307.18,
+      "metadata": {
+        "manager_id": "ceo-001",
+        "strategic_importance": 1.0
+      }
+    },
+    {
+      "id": "department:executive",
+      "label": "Executive",
+      "node_type": "department",
+      "department": "Executive",
+      "team": null,
+      "risk_score": 55.0,
+      "influence_score": 11.36,
+      "knowledge_score": 0.0,
+      "x": 366.72,
+      "y": 316.6,
+      "metadata": {}
+    },
+    {
+      "id": "location:bangalore",
+      "label": "Bangalore",
+      "node_type": "location",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 38.02,
+      "knowledge_score": 0.0,
+      "x": 387.9,
+      "y": 286.7,
+      "metadata": {}
+    },
+    {
+      "id": "team:engineering-leadership",
+      "label": "Engineering Leadership",
+      "node_type": "team",
+      "department": "Engineering",
+      "team": "Engineering Leadership",
+      "risk_score": 75.0,
+      "influence_score": 13.57,
+      "knowledge_score": 0.0,
+      "x": 381.83,
+      "y": 285.33,
+      "metadata": {
+        "manager_id": "cto-001",
+        "strategic_importance": 0.92
+      }
+    },
+    {
+      "id": "department:engineering",
+      "label": "Engineering",
+      "node_type": "department",
+      "department": "Engineering",
+      "team": null,
+      "risk_score": 70.0,
+      "influence_score": 44.01,
+      "knowledge_score": 0.0,
+      "x": 395.79,
+      "y": 279.98,
+      "metadata": {}
+    },
+    {
+      "id": "team:engineering-platform",
+      "label": "Engineering Platform",
+      "node_type": "team",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 88.0,
+      "influence_score": 39.42,
+      "knowledge_score": 0.0,
+      "x": 389.48,
+      "y": 273.91,
+      "metadata": {
+        "manager_id": "mgr-platform-001",
+        "strategic_importance": 0.94
+      }
+    },
+    {
+      "id": "team:application-engineering",
+      "label": "Application Engineering",
+      "node_type": "team",
+      "department": "Engineering",
+      "team": "Application Engineering",
+      "risk_score": 70.0,
+      "influence_score": 27.22,
+      "knowledge_score": 0.0,
+      "x": 410.94,
+      "y": 282.01,
+      "metadata": {
+        "manager_id": "mgr-app-001",
+        "strategic_importance": 0.82
+      }
+    },
+    {
+      "id": "team:product-platform",
+      "label": "Product Platform",
+      "node_type": "team",
+      "department": "Product",
+      "team": "Product Platform",
+      "risk_score": 62.0,
+      "influence_score": 28.77,
+      "knowledge_score": 0.0,
+      "x": 394.19,
+      "y": 295.06,
+      "metadata": {
+        "manager_id": "mgr-product-001",
+        "strategic_importance": 0.78
+      }
+    },
+    {
+      "id": "department:product",
+      "label": "Product",
+      "node_type": "department",
+      "department": "Product",
+      "team": null,
+      "risk_score": 62.0,
+      "influence_score": 16.24,
+      "knowledge_score": 0.0,
+      "x": 392.0,
+      "y": 299.29,
+      "metadata": {}
+    },
+    {
+      "id": "team:security-operations",
+      "label": "Security Operations",
+      "node_type": "team",
+      "department": "Security",
+      "team": "Security Operations",
+      "risk_score": 77.0,
+      "influence_score": 26.0,
+      "knowledge_score": 0.0,
+      "x": 365.06,
+      "y": 271.76,
+      "metadata": {
+        "manager_id": "ciso-001",
+        "strategic_importance": 0.9
+      }
+    },
+    {
+      "id": "department:security",
+      "label": "Security",
+      "node_type": "department",
+      "department": "Security",
+      "team": null,
+      "risk_score": 77.0,
+      "influence_score": 15.7,
+      "knowledge_score": 0.0,
+      "x": 360.0,
+      "y": 263.44,
+      "metadata": {}
+    },
+    {
+      "id": "team:enterprise-success",
+      "label": "Enterprise Success",
+      "node_type": "team",
+      "department": "Customer Success",
+      "team": "Enterprise Success",
+      "risk_score": 68.0,
+      "influence_score": 21.73,
+      "knowledge_score": 0.0,
+      "x": 398.84,
+      "y": 308.69,
+      "metadata": {
+        "manager_id": "vp-cs-001",
+        "strategic_importance": 0.86
+      }
+    },
+    {
+      "id": "department:customer-success",
+      "label": "Customer Success",
+      "node_type": "department",
+      "department": "Customer Success",
+      "team": null,
+      "risk_score": 68.0,
+      "influence_score": 13.08,
+      "knowledge_score": 0.0,
+      "x": 399.69,
+      "y": 317.93,
+      "metadata": {}
+    },
+    {
+      "id": "employee:ceo-001",
+      "label": "Anika Sharma",
+      "node_type": "employee",
+      "department": "Executive",
+      "team": "Executive",
+      "risk_score": 44.2,
+      "influence_score": 96.0,
+      "knowledge_score": 88.0,
+      "x": 370.21,
+      "y": 300.15,
+      "metadata": {
+        "role": "CEO",
+        "source_employee_id": "ceo-001",
+        "formal_manager": true,
+        "workload": 0.65,
+        "stress_score": 35,
+        "collaboration_score": 82.0,
+        "leadership_score": 96.0,
+        "productivity_score": 88.0
+      }
+    },
+    {
+      "id": "project:company-operating-model",
+      "label": "Company Operating Model",
+      "node_type": "project",
+      "department": "Executive",
+      "team": "Executive",
+      "risk_score": 35.0,
+      "influence_score": 13.05,
+      "knowledge_score": 0.0,
+      "x": 362.68,
+      "y": 311.59,
+      "metadata": {}
+    },
+    {
+      "id": "skill:strategy",
+      "label": "Strategy",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 7.46,
+      "knowledge_score": 70.0,
+      "x": 359.44,
+      "y": 316.77,
+      "metadata": {
+        "skill": "strategy"
+      }
+    },
+    {
+      "id": "skill:leadership",
+      "label": "Leadership",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 7.46,
+      "knowledge_score": 70.0,
+      "x": 354.31,
+      "y": 312.37,
+      "metadata": {
+        "skill": "leadership"
+      }
+    },
+    {
+      "id": "employee:cto-001",
+      "label": "Rohan Mehta",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Leadership",
+      "risk_score": 71.4,
+      "influence_score": 89.0,
+      "knowledge_score": 72.0,
+      "x": 376.78,
+      "y": 289.12,
+      "metadata": {
+        "role": "CTO",
+        "source_employee_id": "cto-001",
+        "formal_manager": true,
+        "workload": 1.05,
+        "stress_score": 68.0,
+        "collaboration_score": 72,
+        "leadership_score": 89.0,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "project:platform-reliability",
+      "label": "Platform Reliability",
+      "node_type": "project",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 70.5,
+      "influence_score": 46.77,
+      "knowledge_score": 0.0,
+      "x": 388.84,
+      "y": 281.46,
+      "metadata": {}
+    },
+    {
+      "id": "skill:architecture",
+      "label": "Architecture",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 21.73,
+      "knowledge_score": 70.0,
+      "x": 341.11,
+      "y": 294.11,
+      "metadata": {
+        "skill": "architecture"
+      }
+    },
+    {
+      "id": "skill:kubernetes",
+      "label": "Kubernetes",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 25.6,
+      "knowledge_score": 70.0,
+      "x": 365.21,
+      "y": 281.65,
+      "metadata": {
+        "skill": "kubernetes"
+      }
+    },
+    {
+      "id": "skill:ai-platform",
+      "label": "Ai Platform",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 6.64,
+      "knowledge_score": 70.0,
+      "x": 360.82,
+      "y": 297.49,
+      "metadata": {
+        "skill": "ai platform"
+      }
+    },
+    {
+      "id": "employee:cpo-001",
+      "label": "Maya Iyer",
+      "node_type": "employee",
+      "department": "Product",
+      "team": "Product Leadership",
+      "risk_score": 44.2,
+      "influence_score": 86.0,
+      "knowledge_score": 72.0,
+      "x": 380.93,
+      "y": 298.99,
+      "metadata": {
+        "role": "CPO",
+        "source_employee_id": "cpo-001",
+        "formal_manager": true,
+        "workload": 0.65,
+        "stress_score": 35,
+        "collaboration_score": 72,
+        "leadership_score": 86.0,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "project:client-insights",
+      "label": "Client Insights",
+      "node_type": "project",
+      "department": "Product",
+      "team": "Product Platform",
+      "risk_score": 35.0,
+      "influence_score": 22.33,
+      "knowledge_score": 0.0,
+      "x": 387.29,
+      "y": 305.16,
+      "metadata": {}
+    },
+    {
+      "id": "skill:product-strategy",
+      "label": "Product Strategy",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 9.78,
+      "knowledge_score": 70.0,
+      "x": 379.49,
+      "y": 308.63,
+      "metadata": {
+        "skill": "product strategy"
+      }
+    },
+    {
+      "id": "skill:analytics",
+      "label": "Analytics",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 15.89,
+      "knowledge_score": 70.0,
+      "x": 353.96,
+      "y": 293.68,
+      "metadata": {
+        "skill": "analytics"
+      }
+    },
+    {
+      "id": "employee:ciso-001",
+      "label": "Nisha Rao",
+      "node_type": "employee",
+      "department": "Security",
+      "team": "Security Operations",
+      "risk_score": 61.0,
+      "influence_score": 88.0,
+      "knowledge_score": 72.0,
+      "x": 362.27,
+      "y": 277.88,
+      "metadata": {
+        "role": "CISO",
+        "source_employee_id": "ciso-001",
+        "formal_manager": true,
+        "workload": 0.65,
+        "stress_score": 61.0,
+        "collaboration_score": 72,
+        "leadership_score": 88.0,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "project:data-export-guardrails",
+      "label": "Data Export Guardrails",
+      "node_type": "project",
+      "department": "Security",
+      "team": "Security Operations",
+      "risk_score": 54.0,
+      "influence_score": 19.81,
+      "knowledge_score": 0.0,
+      "x": 355.73,
+      "y": 269.03,
+      "metadata": {}
+    },
+    {
+      "id": "skill:security",
+      "label": "Security",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 10.35,
+      "knowledge_score": 70.0,
+      "x": 354.41,
+      "y": 263.75,
+      "metadata": {
+        "skill": "security"
+      }
+    },
+    {
+      "id": "skill:zero-trust",
+      "label": "Zero Trust",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 10.35,
+      "knowledge_score": 70.0,
+      "x": 350.48,
+      "y": 267.96,
+      "metadata": {
+        "skill": "zero trust"
+      }
+    },
+    {
+      "id": "employee:vp-cs-001",
+      "label": "Omar Singh",
+      "node_type": "employee",
+      "department": "Customer Success",
+      "team": "Enterprise Success",
+      "risk_score": 58.0,
+      "influence_score": 82.0,
+      "knowledge_score": 72.0,
+      "x": 393.13,
+      "y": 304.92,
+      "metadata": {
+        "role": "VP Customer Success",
+        "source_employee_id": "vp-cs-001",
+        "formal_manager": true,
+        "workload": 0.65,
+        "stress_score": 58.0,
+        "collaboration_score": 72,
+        "leadership_score": 82.0,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "project:orion-renewal",
+      "label": "Orion Renewal",
+      "node_type": "project",
+      "department": "Customer Success",
+      "team": "Enterprise Success",
+      "risk_score": 52.0,
+      "influence_score": 21.9,
+      "knowledge_score": 0.0,
+      "x": 403.65,
+      "y": 300.86,
+      "metadata": {}
+    },
+    {
+      "id": "skill:client-recovery",
+      "label": "Client Recovery",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 10.61,
+      "knowledge_score": 70.0,
+      "x": 404.41,
+      "y": 318.48,
+      "metadata": {
+        "skill": "client recovery"
+      }
+    },
+    {
+      "id": "skill:renewals",
+      "label": "Renewals",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 10.61,
+      "knowledge_score": 70.0,
+      "x": 408.93,
+      "y": 316.04,
+      "metadata": {
+        "skill": "renewals"
+      }
+    },
+    {
+      "id": "employee:mgr-platform-001",
+      "label": "Lina Chen",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 82.96,
+      "influence_score": 84.0,
+      "knowledge_score": 72.0,
+      "x": 382.88,
+      "y": 277.98,
+      "metadata": {
+        "role": "Platform Manager",
+        "source_employee_id": "mgr-platform-001",
+        "formal_manager": true,
+        "workload": 1.22,
+        "stress_score": 74.0,
+        "collaboration_score": 72,
+        "leadership_score": 84.0,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "skill:mlops",
+      "label": "Mlops",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 6.1,
+      "knowledge_score": 70.0,
+      "x": 382.61,
+      "y": 259.1,
+      "metadata": {
+        "skill": "mlops"
+      }
+    },
+    {
+      "id": "skill:python",
+      "label": "Python",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 40.24,
+      "knowledge_score": 70.0,
+      "x": 398.64,
+      "y": 276.21,
+      "metadata": {
+        "skill": "python"
+      }
+    },
+    {
+      "id": "skill:incident-response",
+      "label": "Incident Response",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 15.54,
+      "knowledge_score": 70.0,
+      "x": 352.66,
+      "y": 280.22,
+      "metadata": {
+        "skill": "incident response"
+      }
+    },
+    {
+      "id": "employee:mgr-app-001",
+      "label": "Aarav Mehta",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Application Engineering",
+      "risk_score": 62.56,
+      "influence_score": 76.0,
+      "knowledge_score": 72.0,
+      "x": 400.72,
+      "y": 280.87,
+      "metadata": {
+        "role": "Application Manager",
+        "source_employee_id": "mgr-app-001",
+        "formal_manager": true,
+        "workload": 0.92,
+        "stress_score": 57.0,
+        "collaboration_score": 72,
+        "leadership_score": 76.0,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "project:revenue-apis",
+      "label": "Revenue APIs",
+      "node_type": "project",
+      "department": "Engineering",
+      "team": "Application Engineering",
+      "risk_score": 88.0,
+      "influence_score": 22.58,
+      "knowledge_score": 0.0,
+      "x": 415.96,
+      "y": 278.28,
+      "metadata": {}
+    },
+    {
+      "id": "skill:api",
+      "label": "Api",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 30.79,
+      "knowledge_score": 70.0,
+      "x": 404.14,
+      "y": 274.04,
+      "metadata": {
+        "skill": "api"
+      }
+    },
+    {
+      "id": "skill:postgresql",
+      "label": "Postgresql",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 29.43,
+      "knowledge_score": 70.0,
+      "x": 407.67,
+      "y": 267.41,
+      "metadata": {
+        "skill": "postgresql"
+      }
+    },
+    {
+      "id": "employee:mgr-product-001",
+      "label": "Sara Khan",
+      "node_type": "employee",
+      "department": "Product",
+      "team": "Product Platform",
+      "risk_score": 53.04,
+      "influence_score": 79.0,
+      "knowledge_score": 72.0,
+      "x": 384.97,
+      "y": 295.54,
+      "metadata": {
+        "role": "Product Lead",
+        "source_employee_id": "mgr-product-001",
+        "formal_manager": true,
+        "workload": 0.78,
+        "stress_score": 42.0,
+        "collaboration_score": 72,
+        "leadership_score": 79.0,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "skill:research",
+      "label": "Research",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 9.83,
+      "knowledge_score": 70.0,
+      "x": 402.08,
+      "y": 305.02,
+      "metadata": {
+        "skill": "research"
+      }
+    },
+    {
+      "id": "employee:pm-001",
+      "label": "Dev Patel",
+      "node_type": "employee",
+      "department": "Product",
+      "team": "Product Platform",
+      "risk_score": 69.36,
+      "influence_score": 100.0,
+      "knowledge_score": 72.0,
+      "x": 397.86,
+      "y": 287.16,
+      "metadata": {
+        "role": "Program Manager",
+        "source_employee_id": "pm-001",
+        "formal_manager": false,
+        "workload": 1.02,
+        "stress_score": 56.0,
+        "collaboration_score": 63.0,
+        "leadership_score": 55,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "skill:delivery",
+      "label": "Delivery",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 6.18,
+      "knowledge_score": 70.0,
+      "x": 423.01,
+      "y": 289.36,
+      "metadata": {
+        "skill": "delivery"
+      }
+    },
+    {
+      "id": "skill:communication",
+      "label": "Communication",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 6.18,
+      "knowledge_score": 70.0,
+      "x": 420.57,
+      "y": 294.09,
+      "metadata": {
+        "skill": "communication"
+      }
+    },
+    {
+      "id": "employee:design-001",
+      "label": "Isha Nair",
+      "node_type": "employee",
+      "department": "Product",
+      "team": "Product Platform",
+      "risk_score": 47.6,
+      "influence_score": 39.6,
+      "knowledge_score": 72.0,
+      "x": 396.73,
+      "y": 300.06,
+      "metadata": {
+        "role": "Design Lead",
+        "source_employee_id": "design-001",
+        "formal_manager": false,
+        "workload": 0.7,
+        "stress_score": 35,
+        "collaboration_score": 72,
+        "leadership_score": 55,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "skill:ux",
+      "label": "Ux",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 6.91,
+      "knowledge_score": 70.0,
+      "x": 417.12,
+      "y": 310.72,
+      "metadata": {
+        "skill": "ux"
+      }
+    },
+    {
+      "id": "employee:sec-001",
+      "label": "Ken Tan",
+      "node_type": "employee",
+      "department": "Security",
+      "team": "Security Operations",
+      "risk_score": 74.8,
+      "influence_score": 54.22,
+      "knowledge_score": 72.0,
+      "x": 367.45,
+      "y": 268.17,
+      "metadata": {
+        "role": "Security Engineer",
+        "source_employee_id": "sec-001",
+        "formal_manager": false,
+        "workload": 1.1,
+        "stress_score": 63.0,
+        "collaboration_score": 72,
+        "leadership_score": 55,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "skill:threat-modeling",
+      "label": "Threat Modeling",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 7.03,
+      "knowledge_score": 70.0,
+      "x": 362.77,
+      "y": 250.57,
+      "metadata": {
+        "skill": "threat modeling"
+      }
+    },
+    {
+      "id": "employee:sec-002",
+      "label": "Priya Das",
+      "node_type": "employee",
+      "department": "Security",
+      "team": "Security Operations",
+      "risk_score": 59.84,
+      "influence_score": 39.6,
+      "knowledge_score": 72.0,
+      "x": 359.83,
+      "y": 269.33,
+      "metadata": {
+        "role": "SOC Analyst",
+        "source_employee_id": "sec-002",
+        "formal_manager": false,
+        "workload": 0.88,
+        "stress_score": 54.0,
+        "collaboration_score": 72,
+        "leadership_score": 55,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "skill:soc",
+      "label": "Soc",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 7.35,
+      "knowledge_score": 70.0,
+      "x": 348.45,
+      "y": 253.31,
+      "metadata": {
+        "skill": "soc"
+      }
+    },
+    {
+      "id": "employee:cs-001",
+      "label": "Fatima Ali",
+      "node_type": "employee",
+      "department": "Customer Success",
+      "team": "Enterprise Success",
+      "risk_score": 65.28,
+      "influence_score": 39.6,
+      "knowledge_score": 72.0,
+      "x": 403.86,
+      "y": 307.68,
+      "metadata": {
+        "role": "Client Director",
+        "source_employee_id": "cs-001",
+        "formal_manager": false,
+        "workload": 0.96,
+        "stress_score": 52.0,
+        "collaboration_score": 72,
+        "leadership_score": 55,
+        "productivity_score": 72
+      }
+    },
+    {
+      "id": "employee:eng-001",
+      "label": "Engineer 1",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 52.7,
+      "influence_score": 36.5,
+      "knowledge_score": 80.6,
+      "x": 382.89,
+      "y": 276.08,
+      "metadata": {
+        "role": "Senior Engineer",
+        "source_employee_id": "eng-001",
+        "formal_manager": false,
+        "workload": 0.775,
+        "stress_score": 42.5,
+        "collaboration_score": 73.9,
+        "leadership_score": 50.7,
+        "productivity_score": 80.6
+      }
+    },
+    {
+      "id": "skill:observability",
+      "label": "Observability",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 19.75,
+      "knowledge_score": 70.0,
+      "x": 398.27,
+      "y": 271.17,
+      "metadata": {
+        "skill": "observability"
+      }
+    },
+    {
+      "id": "employee:eng-002",
+      "label": "Engineer 2",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 55.08,
+      "influence_score": 37.73,
+      "knowledge_score": 79.2,
+      "x": 385.16,
+      "y": 274.42,
+      "metadata": {
+        "role": "Senior Engineer",
+        "source_employee_id": "eng-002",
+        "formal_manager": false,
+        "workload": 0.81,
+        "stress_score": 46.0,
+        "collaboration_score": 71.8,
+        "leadership_score": 52.4,
+        "productivity_score": 79.2
+      }
+    },
+    {
+      "id": "employee:eng-003",
+      "label": "Engineer 3",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 57.46,
+      "influence_score": 38.95,
+      "knowledge_score": 77.8,
+      "x": 387.54,
+      "y": 276.88,
+      "metadata": {
+        "role": "Senior Engineer",
+        "source_employee_id": "eng-003",
+        "formal_manager": false,
+        "workload": 0.845,
+        "stress_score": 49.5,
+        "collaboration_score": 69.7,
+        "leadership_score": 54.1,
+        "productivity_score": 77.8
+      }
+    },
+    {
+      "id": "employee:eng-004",
+      "label": "Engineer 4",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 59.84,
+      "influence_score": 40.18,
+      "knowledge_score": 76.4,
+      "x": 394.57,
+      "y": 275.02,
+      "metadata": {
+        "role": "Senior Engineer",
+        "source_employee_id": "eng-004",
+        "formal_manager": false,
+        "workload": 0.88,
+        "stress_score": 53.0,
+        "collaboration_score": 67.6,
+        "leadership_score": 55.8,
+        "productivity_score": 76.4
+      }
+    },
+    {
+      "id": "employee:eng-005",
+      "label": "Engineer 5",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 62.22,
+      "influence_score": 41.4,
+      "knowledge_score": 75.0,
+      "x": 392.37,
+      "y": 277.94,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-005",
+        "formal_manager": false,
+        "workload": 0.915,
+        "stress_score": 56.5,
+        "collaboration_score": 65.5,
+        "leadership_score": 57.5,
+        "productivity_score": 75.0
+      }
+    },
+    {
+      "id": "employee:eng-006",
+      "label": "Engineer 6",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 64.6,
+      "influence_score": 42.62,
+      "knowledge_score": 73.6,
+      "x": 397.73,
+      "y": 273.98,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-006",
+        "formal_manager": false,
+        "workload": 0.95,
+        "stress_score": 60.0,
+        "collaboration_score": 63.4,
+        "leadership_score": 59.2,
+        "productivity_score": 73.6
+      }
+    },
+    {
+      "id": "employee:eng-007",
+      "label": "Engineer 7",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 66.98,
+      "influence_score": 43.85,
+      "knowledge_score": 72.2,
+      "x": 393.65,
+      "y": 280.48,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-007",
+        "formal_manager": false,
+        "workload": 0.985,
+        "stress_score": 63.5,
+        "collaboration_score": 61.3,
+        "leadership_score": 60.9,
+        "productivity_score": 72.2
+      }
+    },
+    {
+      "id": "employee:eng-008",
+      "label": "Engineer 8",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 69.36,
+      "influence_score": 45.07,
+      "knowledge_score": 70.8,
+      "x": 395.72,
+      "y": 276.99,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-008",
+        "formal_manager": false,
+        "workload": 1.02,
+        "stress_score": 67.0,
+        "collaboration_score": 59.2,
+        "leadership_score": 62.6,
+        "productivity_score": 70.8
+      }
+    },
+    {
+      "id": "employee:eng-009",
+      "label": "Engineer 9",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Engineering Platform",
+      "risk_score": 71.74,
+      "influence_score": 46.3,
+      "knowledge_score": 69.4,
+      "x": 393.71,
+      "y": 272.67,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-009",
+        "formal_manager": false,
+        "workload": 1.055,
+        "stress_score": 70.5,
+        "collaboration_score": 57.099999999999994,
+        "leadership_score": 64.3,
+        "productivity_score": 69.4
+      }
+    },
+    {
+      "id": "employee:eng-010",
+      "label": "Engineer 10",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Application Engineering",
+      "risk_score": 74.12,
+      "influence_score": 47.52,
+      "knowledge_score": 68.0,
+      "x": 406.96,
+      "y": 277.45,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-010",
+        "formal_manager": false,
+        "workload": 1.09,
+        "stress_score": 74.0,
+        "collaboration_score": 55.0,
+        "leadership_score": 66.0,
+        "productivity_score": 68.0
+      }
+    },
+    {
+      "id": "employee:eng-011",
+      "label": "Engineer 11",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Application Engineering",
+      "risk_score": 77.5,
+      "influence_score": 48.74,
+      "knowledge_score": 66.6,
+      "x": 405.69,
+      "y": 279.97,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-011",
+        "formal_manager": false,
+        "workload": 1.125,
+        "stress_score": 77.5,
+        "collaboration_score": 52.9,
+        "leadership_score": 67.7,
+        "productivity_score": 66.6
+      }
+    },
+    {
+      "id": "employee:eng-012",
+      "label": "Engineer 12",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Application Engineering",
+      "risk_score": 81.0,
+      "influence_score": 49.97,
+      "knowledge_score": 65.2,
+      "x": 409.49,
+      "y": 275.54,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-012",
+        "formal_manager": false,
+        "workload": 1.16,
+        "stress_score": 81.0,
+        "collaboration_score": 50.8,
+        "leadership_score": 69.4,
+        "productivity_score": 65.2
+      }
+    },
+    {
+      "id": "employee:eng-013",
+      "label": "Engineer 13",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Application Engineering",
+      "risk_score": 84.5,
+      "influence_score": 51.19,
+      "knowledge_score": 63.8,
+      "x": 406.44,
+      "y": 281.99,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-013",
+        "formal_manager": false,
+        "workload": 1.195,
+        "stress_score": 84.5,
+        "collaboration_score": 48.7,
+        "leadership_score": 71.1,
+        "productivity_score": 63.8
+      }
+    },
+    {
+      "id": "employee:eng-014",
+      "label": "Engineer 14",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Application Engineering",
+      "risk_score": 88.0,
+      "influence_score": 52.42,
+      "knowledge_score": 62.4,
+      "x": 408.74,
+      "y": 278.98,
+      "metadata": {
+        "role": "Engineer",
+        "source_employee_id": "eng-014",
+        "formal_manager": false,
+        "workload": 1.23,
+        "stress_score": 88.0,
+        "collaboration_score": 46.599999999999994,
+        "leadership_score": 72.8,
+        "productivity_score": 62.400000000000006
+      }
+    },
+    {
+      "id": "employee:talent-005",
+      "label": "Maya Iyer",
+      "node_type": "employee",
+      "department": "Experience",
+      "team": "Executive dashboard redesign",
+      "risk_score": 0.0,
+      "influence_score": 83.92,
+      "knowledge_score": 83.92,
+      "x": 316.94,
+      "y": 285.55,
+      "metadata": {}
+    },
+    {
+      "id": "skill:accessibility",
+      "label": "Accessibility",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 10.55,
+      "knowledge_score": 83.92,
+      "x": 297.53,
+      "y": 286.19,
+      "metadata": {}
+    },
+    {
+      "id": "skill:ai-product-strategy",
+      "label": "Ai Product Strategy",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 9.5,
+      "knowledge_score": 70.92,
+      "x": 298.55,
+      "y": 275.48,
+      "metadata": {}
+    },
+    {
+      "id": "employee:talent-004",
+      "label": "Aarav Mehta",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Billing API stabilization",
+      "risk_score": 0.0,
+      "influence_score": 62.98,
+      "knowledge_score": 62.98,
+      "x": 316.85,
+      "y": 300.79,
+      "metadata": {}
+    },
+    {
+      "id": "skill:api-reliability",
+      "label": "Api Reliability",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 8.61,
+      "knowledge_score": 62.98,
+      "x": 296.46,
+      "y": 308.69,
+      "metadata": {}
+    },
+    {
+      "id": "employee:talent-002",
+      "label": "Sarah Malik",
+      "node_type": "employee",
+      "department": "Security",
+      "team": "Zero trust gateway",
+      "risk_score": 0.0,
+      "influence_score": 79.6,
+      "knowledge_score": 79.6,
+      "x": 322.2,
+      "y": 294.06,
+      "metadata": {}
+    },
+    {
+      "id": "employee:talent-001",
+      "label": "Lina Chen",
+      "node_type": "employee",
+      "department": "Engineering",
+      "team": "Kubernetes rollout",
+      "risk_score": 0.0,
+      "influence_score": 76.44,
+      "knowledge_score": 76.44,
+      "x": 331.06,
+      "y": 288.89,
+      "metadata": {}
+    },
+    {
+      "id": "skill:dashboard-design",
+      "label": "Dashboard Design",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 10.95,
+      "knowledge_score": 88.92,
+      "x": 303.15,
+      "y": 278.53,
+      "metadata": {}
+    },
+    {
+      "id": "skill:fastapi",
+      "label": "Fastapi",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 9.99,
+      "knowledge_score": 80.98,
+      "x": 303.19,
+      "y": 311.15,
+      "metadata": {}
+    },
+    {
+      "id": "employee:talent-003",
+      "label": "Devika Nair",
+      "node_type": "employee",
+      "department": "AI Platform",
+      "team": "RAG assistant evaluation",
+      "risk_score": 0.0,
+      "influence_score": 91.06,
+      "knowledge_score": 91.06,
+      "x": 305.79,
+      "y": 291.07,
+      "metadata": {}
+    },
+    {
+      "id": "skill:forecasting",
+      "label": "Forecasting",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 11.4,
+      "knowledge_score": 91.06,
+      "x": 287.06,
+      "y": 292.94,
+      "metadata": {}
+    },
+    {
+      "id": "project:zero-trust-data-export-automation",
+      "label": "Zero Trust Data Export Automation",
+      "node_type": "project",
+      "department": null,
+      "team": null,
+      "risk_score": 15.23,
+      "influence_score": 12.4,
+      "knowledge_score": 0.0,
+      "x": 312.63,
+      "y": 297.57,
+      "metadata": {}
+    },
+    {
+      "id": "project:executive-workforce-intelligence-dashboard",
+      "label": "Executive Workforce Intelligence Dashboard",
+      "node_type": "project",
+      "department": null,
+      "team": null,
+      "risk_score": 19.68,
+      "influence_score": 10.26,
+      "knowledge_score": 0.0,
+      "x": 296.86,
+      "y": 281.46,
+      "metadata": {}
+    },
+    {
+      "id": "project:ai-knowledge-brain-graph-expansion",
+      "label": "AI Knowledge Brain Graph Expansion",
+      "node_type": "project",
+      "department": null,
+      "team": null,
+      "risk_score": 28.38,
+      "influence_score": 16.98,
+      "knowledge_score": 0.0,
+      "x": 311.5,
+      "y": 293.14,
+      "metadata": {}
+    },
+    {
+      "id": "knowledge:kubernetes-production-outage-recovery",
+      "label": "Kubernetes Production Outage Recovery",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 536.48,
+      "y": 73.46,
+      "metadata": {
+        "source_type": "incident",
+        "parser": "seed_text"
+      }
+    },
+    {
+      "id": "knowledge:postgresql-database-outage-postmortem",
+      "label": "PostgreSQL Database Outage Postmortem",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 651.01,
+      "y": 180.87,
+      "metadata": {
+        "source_type": "incident",
+        "parser": "seed_text"
+      }
+    },
+    {
+      "id": "knowledge:project-beta-architecture-decision-record",
+      "label": "Project Beta Architecture Decision Record",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 632.52,
+      "y": 122.04,
+      "metadata": {
+        "source_type": "technical_doc",
+        "parser": "seed_text"
+      }
+    },
+    {
+      "id": "knowledge:payment-api-failure-resolution-runbook",
+      "label": "Payment API Failure Resolution Runbook",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 298.64,
+      "y": 43.91,
+      "metadata": {
+        "source_type": "sop",
+        "parser": "seed_text"
+      }
+    },
+    {
+      "id": "knowledge:kubernetes-production-recovery-discussion",
+      "label": "Kubernetes Production Recovery Discussion",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 618.04,
+      "y": 459.83,
+      "metadata": {
+        "source_type": "meeting",
+        "parser": "knowledge_loss_signal"
+      }
+    },
+    {
+      "id": "knowledge:model-registry-release-notes",
+      "label": "Model Registry Release Notes",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 128.28,
+      "y": 427.13,
+      "metadata": {
+        "source_type": "documentation",
+        "parser": "knowledge_loss_signal"
+      }
+    },
+    {
+      "id": "knowledge:security-gateway-incident-ticket",
+      "label": "Security Gateway Incident Ticket",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 688.0,
+      "y": 293.34,
+      "metadata": {
+        "source_type": "support",
+        "parser": "knowledge_loss_signal"
+      }
+    },
+    {
+      "id": "knowledge:frontend-dashboard-architecture-review",
+      "label": "Frontend Dashboard Architecture Review",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 473.45,
+      "y": 58.2,
+      "metadata": {
+        "source_type": "design",
+        "parser": "knowledge_loss_signal"
+      }
+    },
+    {
+      "id": "knowledge:payment-api-jira-escalation",
+      "label": "Payment API Jira Escalation",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 193.07,
+      "y": 496.32,
+      "metadata": {
+        "source_type": "jira",
+        "parser": "knowledge_loss_signal"
+      }
+    },
+    {
+      "id": "knowledge:fixture-kubernetes-runbook",
+      "label": "Fixture Kubernetes Runbook",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 3.79,
+      "knowledge_score": 68.0,
+      "x": 684.97,
+      "y": 349.15,
+      "metadata": {
+        "source_type": "text",
+        "parser": "plain_text_parser"
+      }
+    },
+    {
+      "id": "employee:priya",
+      "label": "Priya",
+      "node_type": "employee",
+      "department": "Enterprise",
+      "team": "Knowledge",
+      "risk_score": 0.0,
+      "influence_score": 99.0,
+      "knowledge_score": 99.0,
+      "x": 512.64,
+      "y": 469.43,
+      "metadata": {}
+    },
+    {
+      "id": "skill:payment-failure",
+      "label": "Payment Failure",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 19.46,
+      "knowledge_score": 99.0,
+      "x": 514.32,
+      "y": 478.26,
+      "metadata": {}
+    },
+    {
+      "id": "knowledge:fixture-pdf-payment-failure",
+      "label": "Fixture PDF Payment Failure",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 19.46,
+      "knowledge_score": 68.0,
+      "x": 521.21,
+      "y": 474.3,
+      "metadata": {}
+    },
+    {
+      "id": "employee:sarah",
+      "label": "Sarah",
+      "node_type": "employee",
+      "department": "Enterprise",
+      "team": "Knowledge",
+      "risk_score": 0.0,
+      "influence_score": 99.0,
+      "knowledge_score": 99.0,
+      "x": 426.03,
+      "y": 248.27,
+      "metadata": {}
+    },
+    {
+      "id": "skill:database-recovery",
+      "label": "Database Recovery",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 11.26,
+      "knowledge_score": 99.0,
+      "x": 434.05,
+      "y": 235.95,
+      "metadata": {}
+    },
+    {
+      "id": "knowledge:fixture-docx-database-outage",
+      "label": "Fixture DOCX Database Outage",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 11.26,
+      "knowledge_score": 68.0,
+      "x": 439.37,
+      "y": 239.24,
+      "metadata": {}
+    },
+    {
+      "id": "employee:david",
+      "label": "David",
+      "node_type": "employee",
+      "department": "Enterprise",
+      "team": "Knowledge",
+      "risk_score": 0.0,
+      "influence_score": 99.0,
+      "knowledge_score": 99.0,
+      "x": 92.95,
+      "y": 359.59,
+      "metadata": {}
+    },
+    {
+      "id": "skill:architecture-decision",
+      "label": "Architecture Decision",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 19.46,
+      "knowledge_score": 99.0,
+      "x": 85.12,
+      "y": 361.22,
+      "metadata": {}
+    },
+    {
+      "id": "knowledge:fixture-pptx-project-beta",
+      "label": "Fixture PPTX Project Beta",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 19.46,
+      "knowledge_score": 68.0,
+      "x": 104.5,
+      "y": 356.79,
+      "metadata": {}
+    },
+    {
+      "id": "employee:asha",
+      "label": "Asha",
+      "node_type": "employee",
+      "department": "Enterprise",
+      "team": "Knowledge",
+      "risk_score": 0.0,
+      "influence_score": 99.0,
+      "knowledge_score": 99.0,
+      "x": 150.71,
+      "y": 190.06,
+      "metadata": {}
+    },
+    {
+      "id": "skill:rag",
+      "label": "Rag",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 19.46,
+      "knowledge_score": 99.0,
+      "x": 146.62,
+      "y": 182.82,
+      "metadata": {}
+    },
+    {
+      "id": "knowledge:fixture-xlsx-expertise-matrix",
+      "label": "Fixture XLSX Expertise Matrix",
+      "node_type": "knowledge_asset",
+      "department": null,
+      "team": null,
+      "risk_score": 32.0,
+      "influence_score": 19.46,
+      "knowledge_score": 68.0,
+      "x": 143.39,
+      "y": 187.83,
+      "metadata": {}
+    },
+    {
+      "id": "skill:vector-search",
+      "label": "Vector Search",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 19.46,
+      "knowledge_score": 99.0,
+      "x": 153.99,
+      "y": 194.77,
+      "metadata": {}
+    },
+    {
+      "id": "skill:qdrant",
+      "label": "Qdrant",
+      "node_type": "skill",
+      "department": null,
+      "team": null,
+      "risk_score": 0.0,
+      "influence_score": 19.46,
+      "knowledge_score": 99.0,
+      "x": 162.5,
+      "y": 192.51,
+      "metadata": {}
+    },
+    {
+      "id": "employee:qdrant",
+      "label": "Qdrant",
+      "node_type": "employee",
+      "department": "Enterprise",
+      "team": "Knowledge",
+      "risk_score": 0.0,
+      "influence_score": 99.0,
+      "knowledge_score": 99.0,
+      "x": 153.64,
+      "y": 187.8,
+      "metadata": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "employee:ceo-001",
+      "target": "department:executive",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 35.0,
+      "evidence": "Anika Sharma collaborates inside Executive.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "department:security",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 61.0,
+      "evidence": "Nisha Rao collaborates inside Security.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "department:product",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 35.0,
+      "evidence": "Maya Iyer collaborates inside Product.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:cs-001",
+      "target": "department:customer-success",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 52.0,
+      "evidence": "Fatima Ali collaborates inside Customer Success.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 68.0,
+      "evidence": "Rohan Mehta collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:design-001",
+      "target": "department:product",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 35.0,
+      "evidence": "Isha Nair collaborates inside Product.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 42.5,
+      "evidence": "Engineer 1 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 46.0,
+      "evidence": "Engineer 2 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 49.5,
+      "evidence": "Engineer 3 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 53.0,
+      "evidence": "Engineer 4 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 56.5,
+      "evidence": "Engineer 5 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 60.0,
+      "evidence": "Engineer 6 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 63.5,
+      "evidence": "Engineer 7 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 67.0,
+      "evidence": "Engineer 8 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 70.5,
+      "evidence": "Engineer 9 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 74.0,
+      "evidence": "Engineer 10 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 77.5,
+      "evidence": "Engineer 11 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 81.0,
+      "evidence": "Engineer 12 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 84.5,
+      "evidence": "Engineer 13 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 88.0,
+      "evidence": "Engineer 14 collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 57.0,
+      "evidence": "Aarav Mehta collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 74.0,
+      "evidence": "Lina Chen collaborates inside Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "department:product",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 42.0,
+      "evidence": "Sara Khan collaborates inside Product.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "department:product",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 56.0,
+      "evidence": "Dev Patel collaborates inside Product.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "department:security",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 63.0,
+      "evidence": "Ken Tan collaborates inside Security.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:sec-002",
+      "target": "department:security",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 54.0,
+      "evidence": "Priya Das collaborates inside Security.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:talent-001",
+      "target": "project:ai-knowledge-brain-graph-expansion",
+      "edge_type": "collaborates_with",
+      "weight": 0.61,
+      "risk_score": 39.0,
+      "evidence": "Lina Chen has 61% match for AI Knowledge Brain Graph Expansion.",
+      "source_system": "project_matching_engine"
+    },
+    {
+      "source": "employee:talent-001",
+      "target": "project:zero-trust-data-export-automation",
+      "edge_type": "collaborates_with",
+      "weight": 0.439,
+      "risk_score": 56.07,
+      "evidence": "Lina Chen has 44% match for Zero Trust Data Export Automation.",
+      "source_system": "project_matching_engine"
+    },
+    {
+      "source": "employee:talent-002",
+      "target": "project:zero-trust-data-export-automation",
+      "edge_type": "collaborates_with",
+      "weight": 0.848,
+      "risk_score": 15.23,
+      "evidence": "Sarah Malik has 85% match for Zero Trust Data Export Automation.",
+      "source_system": "project_matching_engine"
+    },
+    {
+      "source": "employee:talent-003",
+      "target": "project:ai-knowledge-brain-graph-expansion",
+      "edge_type": "collaborates_with",
+      "weight": 0.716,
+      "risk_score": 28.38,
+      "evidence": "Devika Nair has 72% match for AI Knowledge Brain Graph Expansion.",
+      "source_system": "project_matching_engine"
+    },
+    {
+      "source": "employee:talent-004",
+      "target": "project:ai-knowledge-brain-graph-expansion",
+      "edge_type": "collaborates_with",
+      "weight": 0.445,
+      "risk_score": 55.54,
+      "evidence": "Aarav Mehta has 44% match for AI Knowledge Brain Graph Expansion.",
+      "source_system": "project_matching_engine"
+    },
+    {
+      "source": "employee:talent-005",
+      "target": "project:executive-workforce-intelligence-dashboard",
+      "edge_type": "collaborates_with",
+      "weight": 0.803,
+      "risk_score": 19.68,
+      "evidence": "Maya Iyer has 80% match for Executive Workforce Intelligence Dashboard.",
+      "source_system": "project_matching_engine"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "department:customer-success",
+      "edge_type": "collaborates_with",
+      "weight": 0.65,
+      "risk_score": 58.0,
+      "evidence": "Omar Singh collaborates inside Customer Success.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "team:application-engineering",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.8,
+      "risk_score": 70.0,
+      "evidence": "Application Engineering operates inside Engineering.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:engineering-leadership",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.8,
+      "risk_score": 75.0,
+      "evidence": "Engineering Leadership operates inside Engineering.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:engineering-platform",
+      "target": "department:engineering",
+      "edge_type": "collaborates_with",
+      "weight": 0.8,
+      "risk_score": 88.0,
+      "evidence": "Engineering Platform operates inside Engineering.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:enterprise-success",
+      "target": "department:customer-success",
+      "edge_type": "collaborates_with",
+      "weight": 0.8,
+      "risk_score": 68.0,
+      "evidence": "Enterprise Success operates inside Customer Success.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:executive",
+      "target": "department:executive",
+      "edge_type": "collaborates_with",
+      "weight": 0.8,
+      "risk_score": 55.0,
+      "evidence": "Executive operates inside Executive.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:product-platform",
+      "target": "department:product",
+      "edge_type": "collaborates_with",
+      "weight": 0.8,
+      "risk_score": 62.0,
+      "evidence": "Product Platform operates inside Product.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:security-operations",
+      "target": "department:security",
+      "edge_type": "collaborates_with",
+      "weight": 0.8,
+      "risk_score": 77.0,
+      "evidence": "Security Operations operates inside Security.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "employee:cto-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Nisha Rao communicates with Rohan Mehta.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "employee:sec-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Nisha Rao communicates with Ken Tan.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "employee:sec-002",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Nisha Rao communicates with Priya Das.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "employee:cto-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Maya Iyer communicates with Rohan Mehta.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "employee:design-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Maya Iyer communicates with Isha Nair.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Maya Iyer communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:cs-001",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Fatima Ali communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "employee:ciso-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Rohan Mehta communicates with Nisha Rao.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "employee:cpo-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Rohan Mehta communicates with Maya Iyer.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "employee:vp-cs-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Rohan Mehta communicates with Omar Singh.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:design-001",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Isha Nair communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 26.1,
+      "evidence": "Engineer 1 communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 26.1,
+      "evidence": "Engineer 1 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "employee:sec-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 26.1,
+      "evidence": "Engineer 1 communicates with Ken Tan.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.2,
+      "evidence": "Engineer 2 communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.2,
+      "evidence": "Engineer 2 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "employee:sec-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.2,
+      "evidence": "Engineer 2 communicates with Ken Tan.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 30.3,
+      "evidence": "Engineer 3 communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 30.3,
+      "evidence": "Engineer 3 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 32.4,
+      "evidence": "Engineer 4 communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 32.4,
+      "evidence": "Engineer 4 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 34.5,
+      "evidence": "Engineer 5 communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 34.5,
+      "evidence": "Engineer 5 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 36.6,
+      "evidence": "Engineer 6 communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 36.6,
+      "evidence": "Engineer 6 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 38.7,
+      "evidence": "Engineer 7 communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 38.7,
+      "evidence": "Engineer 7 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 40.8,
+      "evidence": "Engineer 8 communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 40.8,
+      "evidence": "Engineer 8 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 42.9,
+      "evidence": "Engineer 9 communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 42.9,
+      "evidence": "Engineer 9 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "employee:mgr-app-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 45.0,
+      "evidence": "Engineer 10 communicates with Aarav Mehta.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 45.0,
+      "evidence": "Engineer 10 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "employee:mgr-app-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 47.1,
+      "evidence": "Engineer 11 communicates with Aarav Mehta.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 47.1,
+      "evidence": "Engineer 11 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "employee:mgr-app-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 49.2,
+      "evidence": "Engineer 12 communicates with Aarav Mehta.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 49.2,
+      "evidence": "Engineer 12 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "employee:mgr-app-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 51.3,
+      "evidence": "Engineer 13 communicates with Aarav Mehta.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 51.3,
+      "evidence": "Engineer 13 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "employee:mgr-app-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 53.4,
+      "evidence": "Engineer 14 communicates with Aarav Mehta.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 53.4,
+      "evidence": "Engineer 14 communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "employee:eng-006",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Aarav Mehta communicates with Engineer 6.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "employee:eng-007",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Aarav Mehta communicates with Engineer 7.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Aarav Mehta communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "employee:eng-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Lina Chen communicates with Engineer 1.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "employee:eng-002",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Lina Chen communicates with Engineer 2.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "employee:eng-003",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Lina Chen communicates with Engineer 3.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "employee:mgr-product-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Lina Chen communicates with Sara Khan.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "employee:sec-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Lina Chen communicates with Ken Tan.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "employee:design-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Sara Khan communicates with Isha Nair.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Sara Khan communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Sara Khan communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "employee:mgr-app-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 37.0,
+      "evidence": "Dev Patel communicates with Aarav Mehta.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "employee:vp-cs-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 37.0,
+      "evidence": "Dev Patel communicates with Omar Singh.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Ken Tan communicates with Lina Chen.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "employee:sec-002",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Ken Tan communicates with Priya Das.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:sec-002",
+      "target": "employee:sec-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Priya Das communicates with Ken Tan.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "employee:cs-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Omar Singh communicates with Fatima Ali.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "employee:cto-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Omar Singh communicates with Rohan Mehta.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "employee:pm-001",
+      "edge_type": "communicates_with",
+      "weight": 1.1,
+      "risk_score": 28.0,
+      "evidence": "Omar Singh communicates with Dev Patel.",
+      "source_system": "communication_analytics_engine"
+    },
+    {
+      "source": "project:client-insights",
+      "target": "team:product-leadership",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 35.0,
+      "evidence": "Client Insights depends on Product Leadership.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "project:client-insights",
+      "target": "team:product-platform",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 42.0,
+      "evidence": "Client Insights depends on Product Platform.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "project:company-operating-model",
+      "target": "team:executive",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 35.0,
+      "evidence": "Company Operating Model depends on Executive.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "project:data-export-guardrails",
+      "target": "team:security-operations",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 63.0,
+      "evidence": "Data Export Guardrails depends on Security Operations.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "project:orion-renewal",
+      "target": "team:enterprise-success",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 58.0,
+      "evidence": "Orion Renewal depends on Enterprise Success.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "project:orion-renewal",
+      "target": "team:product-platform",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 56.0,
+      "evidence": "Orion Renewal depends on Product Platform.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "project:platform-reliability",
+      "target": "team:engineering-leadership",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 68.0,
+      "evidence": "Platform Reliability depends on Engineering Leadership.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "project:platform-reliability",
+      "target": "team:engineering-platform",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 74.0,
+      "evidence": "Platform Reliability depends on Engineering Platform.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "project:platform-reliability",
+      "target": "team:product-platform",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 56.0,
+      "evidence": "Platform Reliability depends on Product Platform.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "project:revenue-apis",
+      "target": "team:application-engineering",
+      "edge_type": "depends_on",
+      "weight": 0.85,
+      "risk_score": 88.0,
+      "evidence": "Revenue APIs depends on Application Engineering.",
+      "source_system": "team_dependency_engine"
+    },
+    {
+      "source": "skill:architecture-decision",
+      "target": "employee:david",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "architecture decision expertise depends on David.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "skill:database-recovery",
+      "target": "employee:sarah",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "database recovery expertise depends on Sarah.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "skill:payment-failure",
+      "target": "employee:priya",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "payment failure expertise depends on Priya.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "skill:postgresql",
+      "target": "employee:sarah",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "postgresql expertise depends on Sarah.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "skill:qdrant",
+      "target": "employee:asha",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "qdrant expertise depends on Asha.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "skill:qdrant",
+      "target": "employee:qdrant",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "qdrant expertise depends on Qdrant.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "skill:rag",
+      "target": "employee:asha",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "rag expertise depends on Asha.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "skill:rag",
+      "target": "employee:qdrant",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "rag expertise depends on Qdrant.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "skill:vector-search",
+      "target": "employee:asha",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "vector search expertise depends on Asha.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "skill:vector-search",
+      "target": "employee:qdrant",
+      "edge_type": "depends_on",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "vector search expertise depends on Qdrant.",
+      "source_system": "knowledge_flow_engine"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "employee:eng-004",
+      "edge_type": "mentors",
+      "weight": 0.9,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen mentors Engineer 4.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "employee:eng-005",
+      "edge_type": "mentors",
+      "weight": 0.9,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen mentors Engineer 5.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:talent-001",
+      "target": "employee:talent-002",
+      "edge_type": "mentors",
+      "weight": 0.897,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen has strong mlops evidence and mentorship capacity for Sarah Malik.",
+      "source_system": "mentor_matching_engine"
+    },
+    {
+      "source": "employee:talent-001",
+      "target": "employee:talent-003",
+      "edge_type": "mentors",
+      "weight": 0.924,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen has strong kubernetes evidence and mentorship capacity for Devika Nair.",
+      "source_system": "mentor_matching_engine"
+    },
+    {
+      "source": "employee:talent-001",
+      "target": "employee:talent-004",
+      "edge_type": "mentors",
+      "weight": 0.924,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen has strong kubernetes evidence and mentorship capacity for Aarav Mehta.",
+      "source_system": "mentor_matching_engine"
+    },
+    {
+      "source": "employee:talent-001",
+      "target": "employee:talent-005",
+      "edge_type": "mentors",
+      "weight": 0.924,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen has strong kubernetes evidence and mentorship capacity for Maya Iyer.",
+      "source_system": "mentor_matching_engine"
+    },
+    {
+      "source": "employee:talent-002",
+      "target": "employee:talent-001",
+      "edge_type": "mentors",
+      "weight": 0.932,
+      "risk_score": 0.0,
+      "evidence": "Sarah Malik has strong security evidence and mentorship capacity for Lina Chen.",
+      "source_system": "mentor_matching_engine"
+    },
+    {
+      "source": "employee:talent-002",
+      "target": "employee:talent-004",
+      "edge_type": "mentors",
+      "weight": 0.932,
+      "risk_score": 0.0,
+      "evidence": "Sarah Malik has strong security evidence and mentorship capacity for Aarav Mehta.",
+      "source_system": "mentor_matching_engine"
+    },
+    {
+      "source": "employee:talent-002",
+      "target": "employee:talent-005",
+      "edge_type": "mentors",
+      "weight": 0.932,
+      "risk_score": 0.0,
+      "evidence": "Sarah Malik has strong security evidence and mentorship capacity for Maya Iyer.",
+      "source_system": "mentor_matching_engine"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "employee:ceo-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 61.0,
+      "evidence": "Nisha Rao reports to Anika Sharma.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "employee:ceo-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 35.0,
+      "evidence": "Maya Iyer reports to Anika Sharma.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:cs-001",
+      "target": "employee:vp-cs-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 52.0,
+      "evidence": "Fatima Ali reports to Omar Singh.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "employee:ceo-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 68.0,
+      "evidence": "Rohan Mehta reports to Anika Sharma.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:design-001",
+      "target": "employee:mgr-product-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 35.0,
+      "evidence": "Isha Nair reports to Sara Khan.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 42.5,
+      "evidence": "Engineer 1 reports to Lina Chen.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 46.0,
+      "evidence": "Engineer 2 reports to Lina Chen.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 49.5,
+      "evidence": "Engineer 3 reports to Lina Chen.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 53.0,
+      "evidence": "Engineer 4 reports to Lina Chen.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 56.5,
+      "evidence": "Engineer 5 reports to Lina Chen.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 60.0,
+      "evidence": "Engineer 6 reports to Lina Chen.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 63.5,
+      "evidence": "Engineer 7 reports to Lina Chen.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 67.0,
+      "evidence": "Engineer 8 reports to Lina Chen.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "employee:mgr-platform-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 70.5,
+      "evidence": "Engineer 9 reports to Lina Chen.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "employee:mgr-app-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 74.0,
+      "evidence": "Engineer 10 reports to Aarav Mehta.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "employee:mgr-app-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 77.5,
+      "evidence": "Engineer 11 reports to Aarav Mehta.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "employee:mgr-app-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 81.0,
+      "evidence": "Engineer 12 reports to Aarav Mehta.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "employee:mgr-app-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 84.5,
+      "evidence": "Engineer 13 reports to Aarav Mehta.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "employee:mgr-app-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 88.0,
+      "evidence": "Engineer 14 reports to Aarav Mehta.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "employee:cto-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 57.0,
+      "evidence": "Aarav Mehta reports to Rohan Mehta.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "employee:cto-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 74.0,
+      "evidence": "Lina Chen reports to Rohan Mehta.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "employee:cpo-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 42.0,
+      "evidence": "Sara Khan reports to Maya Iyer.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "employee:mgr-product-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 56.0,
+      "evidence": "Dev Patel reports to Sara Khan.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "employee:ciso-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 63.0,
+      "evidence": "Ken Tan reports to Nisha Rao.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:sec-002",
+      "target": "employee:ciso-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 54.0,
+      "evidence": "Priya Das reports to Nisha Rao.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "employee:ceo-001",
+      "edge_type": "reports_to",
+      "weight": 1.4,
+      "risk_score": 58.0,
+      "evidence": "Omar Singh reports to Anika Sharma.",
+      "source_system": "reporting_structure_analyzer"
+    },
+    {
+      "source": "employee:asha",
+      "target": "knowledge:fixture-xlsx-expertise-matrix",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "Asha contributes to Fixture XLSX Expertise Matrix.",
+      "source_system": "knowledge_brain"
+    },
+    {
+      "source": "employee:ceo-001",
+      "target": "skill:leadership",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Anika Sharma shares operational knowledge for leadership.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:ceo-001",
+      "target": "skill:strategy",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Anika Sharma shares operational knowledge for strategy.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "skill:kubernetes",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Nisha Rao shares operational knowledge for kubernetes.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "skill:security",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Nisha Rao shares operational knowledge for security.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "skill:zero-trust",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Nisha Rao shares operational knowledge for zero trust.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "skill:analytics",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Maya Iyer shares operational knowledge for analytics.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "skill:product-strategy",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Maya Iyer shares operational knowledge for product strategy.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:cs-001",
+      "target": "skill:client-recovery",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Fatima Ali shares operational knowledge for client recovery.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:cs-001",
+      "target": "skill:renewals",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Fatima Ali shares operational knowledge for renewals.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "skill:ai-platform",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Rohan Mehta shares operational knowledge for ai platform.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "skill:architecture",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Rohan Mehta shares operational knowledge for architecture.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "skill:kubernetes",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Rohan Mehta shares operational knowledge for kubernetes.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:david",
+      "target": "knowledge:fixture-pptx-project-beta",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "David contributes to Fixture PPTX Project Beta.",
+      "source_system": "knowledge_brain"
+    },
+    {
+      "source": "employee:design-001",
+      "target": "skill:research",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Isha Nair shares operational knowledge for research.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:design-001",
+      "target": "skill:ux",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Isha Nair shares operational knowledge for ux.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "skill:kubernetes",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 1 shares operational knowledge for kubernetes.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "skill:observability",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 1 shares operational knowledge for observability.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 1 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "skill:kubernetes",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 2 shares operational knowledge for kubernetes.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "skill:postgresql",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 2 shares operational knowledge for postgresql.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 2 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "skill:kubernetes",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 3 shares operational knowledge for kubernetes.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "skill:observability",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 3 shares operational knowledge for observability.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 3 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 4 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "skill:postgresql",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 4 shares operational knowledge for postgresql.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 4 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 5 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "skill:observability",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 5 shares operational knowledge for observability.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 5 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 6 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "skill:postgresql",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 6 shares operational knowledge for postgresql.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 6 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 7 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "skill:observability",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 7 shares operational knowledge for observability.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 7 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 8 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "skill:postgresql",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 8 shares operational knowledge for postgresql.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 8 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 9 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "skill:observability",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 9 shares operational knowledge for observability.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 9 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 10 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "skill:postgresql",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 10 shares operational knowledge for postgresql.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 10 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 11 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "skill:observability",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 11 shares operational knowledge for observability.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 11 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 12 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "skill:postgresql",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 12 shares operational knowledge for postgresql.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 12 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 13 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "skill:observability",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 13 shares operational knowledge for observability.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 13 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 14 shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "skill:postgresql",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 14 shares operational knowledge for postgresql.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Engineer 14 shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "skill:api",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Aarav Mehta shares operational knowledge for api.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "skill:postgresql",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Aarav Mehta shares operational knowledge for postgresql.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Aarav Mehta shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "skill:incident-response",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen shares operational knowledge for incident response.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "skill:kubernetes",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen shares operational knowledge for kubernetes.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "skill:mlops",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen shares operational knowledge for mlops.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "skill:python",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen shares operational knowledge for python.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "skill:analytics",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Sara Khan shares operational knowledge for analytics.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "skill:product-strategy",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Sara Khan shares operational knowledge for product strategy.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "skill:research",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Sara Khan shares operational knowledge for research.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "skill:communication",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Dev Patel shares operational knowledge for communication.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "skill:delivery",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Dev Patel shares operational knowledge for delivery.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:priya",
+      "target": "knowledge:fixture-pdf-payment-failure",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "Priya contributes to Fixture PDF Payment Failure.",
+      "source_system": "knowledge_brain"
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "knowledge:fixture-xlsx-expertise-matrix",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "Qdrant contributes to Fixture XLSX Expertise Matrix.",
+      "source_system": "knowledge_brain"
+    },
+    {
+      "source": "employee:sarah",
+      "target": "knowledge:fixture-docx-database-outage",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.99,
+      "risk_score": 1.0,
+      "evidence": "Sarah contributes to Fixture DOCX Database Outage.",
+      "source_system": "knowledge_brain"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "skill:security",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Ken Tan shares operational knowledge for security.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "skill:threat-modeling",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Ken Tan shares operational knowledge for threat modeling.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "skill:zero-trust",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Ken Tan shares operational knowledge for zero trust.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:sec-002",
+      "target": "skill:incident-response",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Priya Das shares operational knowledge for incident response.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:sec-002",
+      "target": "skill:soc",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Priya Das shares operational knowledge for soc.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:talent-001",
+      "target": "skill:architecture",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.764,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen is ranked 76% for architecture.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-001",
+      "target": "skill:incident-response",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.944,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen is ranked 94% for incident response.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-001",
+      "target": "skill:kubernetes",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.994,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen is ranked 99% for kubernetes.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-002",
+      "target": "skill:architecture",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.796,
+      "risk_score": 0.0,
+      "evidence": "Sarah Malik is ranked 80% for architecture.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-003",
+      "target": "skill:forecasting",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.911,
+      "risk_score": 0.0,
+      "evidence": "Devika Nair is ranked 91% for forecasting.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-004",
+      "target": "skill:api-reliability",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.63,
+      "risk_score": 0.0,
+      "evidence": "Aarav Mehta is ranked 63% for api reliability.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-004",
+      "target": "skill:architecture",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.63,
+      "risk_score": 0.0,
+      "evidence": "Aarav Mehta is ranked 63% for architecture.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-004",
+      "target": "skill:fastapi",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.81,
+      "risk_score": 0.0,
+      "evidence": "Aarav Mehta is ranked 81% for fastapi.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-005",
+      "target": "skill:accessibility",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.839,
+      "risk_score": 0.0,
+      "evidence": "Maya Iyer is ranked 84% for accessibility.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-005",
+      "target": "skill:ai-product-strategy",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.709,
+      "risk_score": 0.0,
+      "evidence": "Maya Iyer is ranked 71% for ai product strategy.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-005",
+      "target": "skill:analytics",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.759,
+      "risk_score": 0.0,
+      "evidence": "Maya Iyer is ranked 76% for analytics.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:talent-005",
+      "target": "skill:dashboard-design",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.889,
+      "risk_score": 0.0,
+      "evidence": "Maya Iyer is ranked 89% for dashboard design.",
+      "source_system": "skill_intelligence_engine"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "skill:client-recovery",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Omar Singh shares operational knowledge for client recovery.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "skill:renewals",
+      "edge_type": "shares_knowledge_with",
+      "weight": 0.78,
+      "risk_score": 0.0,
+      "evidence": "Omar Singh shares operational knowledge for renewals.",
+      "source_system": "talent_marketplace"
+    },
+    {
+      "source": "employee:ceo-001",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Anika Sharma works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:ceo-001",
+      "target": "project:company-operating-model",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 35.0,
+      "evidence": "Anika Sharma works with project Company Operating Model.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:ceo-001",
+      "target": "team:executive",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 35.0,
+      "evidence": "Anika Sharma works with Executive.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "location:singapore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Nisha Rao works from Singapore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "project:data-export-guardrails",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 61.0,
+      "evidence": "Nisha Rao works with project Data Export Guardrails.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:ciso-001",
+      "target": "team:security-operations",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 61.0,
+      "evidence": "Nisha Rao works with Security Operations.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Maya Iyer works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "project:client-insights",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 35.0,
+      "evidence": "Maya Iyer works with project Client Insights.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:cpo-001",
+      "target": "team:product-leadership",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 35.0,
+      "evidence": "Maya Iyer works with Product Leadership.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:cs-001",
+      "target": "location:dubai",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Fatima Ali works from Dubai.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:cs-001",
+      "target": "project:orion-renewal",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 52.0,
+      "evidence": "Fatima Ali works with project Orion Renewal.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:cs-001",
+      "target": "team:enterprise-success",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 52.0,
+      "evidence": "Fatima Ali works with Enterprise Success.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Rohan Mehta works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 68.0,
+      "evidence": "Rohan Mehta works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:cto-001",
+      "target": "team:engineering-leadership",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 68.0,
+      "evidence": "Rohan Mehta works with Engineering Leadership.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:design-001",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Isha Nair works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:design-001",
+      "target": "project:client-insights",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 35.0,
+      "evidence": "Isha Nair works with project Client Insights.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:design-001",
+      "target": "team:product-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 35.0,
+      "evidence": "Isha Nair works with Product Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 1 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 42.5,
+      "evidence": "Engineer 1 works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-001",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 42.5,
+      "evidence": "Engineer 1 works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 2 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 46.0,
+      "evidence": "Engineer 2 works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-002",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 46.0,
+      "evidence": "Engineer 2 works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "location:remote",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 3 works from Remote.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 49.5,
+      "evidence": "Engineer 3 works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-003",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 49.5,
+      "evidence": "Engineer 3 works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 4 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 53.0,
+      "evidence": "Engineer 4 works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-004",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 53.0,
+      "evidence": "Engineer 4 works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 5 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 56.5,
+      "evidence": "Engineer 5 works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-005",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 56.5,
+      "evidence": "Engineer 5 works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "location:remote",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 6 works from Remote.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 60.0,
+      "evidence": "Engineer 6 works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-006",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 60.0,
+      "evidence": "Engineer 6 works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 7 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 63.5,
+      "evidence": "Engineer 7 works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-007",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 63.5,
+      "evidence": "Engineer 7 works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 8 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 67.0,
+      "evidence": "Engineer 8 works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-008",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 67.0,
+      "evidence": "Engineer 8 works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "location:remote",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 9 works from Remote.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 70.5,
+      "evidence": "Engineer 9 works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-009",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 70.5,
+      "evidence": "Engineer 9 works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 10 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "project:revenue-apis",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 74.0,
+      "evidence": "Engineer 10 works with project Revenue APIs.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-010",
+      "target": "team:application-engineering",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 74.0,
+      "evidence": "Engineer 10 works with Application Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 11 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "project:revenue-apis",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 77.5,
+      "evidence": "Engineer 11 works with project Revenue APIs.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-011",
+      "target": "team:application-engineering",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 77.5,
+      "evidence": "Engineer 11 works with Application Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "location:remote",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 12 works from Remote.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "project:revenue-apis",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 81.0,
+      "evidence": "Engineer 12 works with project Revenue APIs.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-012",
+      "target": "team:application-engineering",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 81.0,
+      "evidence": "Engineer 12 works with Application Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 13 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "project:revenue-apis",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 84.5,
+      "evidence": "Engineer 13 works with project Revenue APIs.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-013",
+      "target": "team:application-engineering",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 84.5,
+      "evidence": "Engineer 13 works with Application Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Engineer 14 works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "project:revenue-apis",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 88.0,
+      "evidence": "Engineer 14 works with project Revenue APIs.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:eng-014",
+      "target": "team:application-engineering",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 88.0,
+      "evidence": "Engineer 14 works with Application Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Aarav Mehta works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "project:revenue-apis",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 57.0,
+      "evidence": "Aarav Mehta works with project Revenue APIs.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:mgr-app-001",
+      "target": "team:application-engineering",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 57.0,
+      "evidence": "Aarav Mehta works with Application Engineering.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Lina Chen works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 74.0,
+      "evidence": "Lina Chen works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:mgr-platform-001",
+      "target": "team:engineering-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 74.0,
+      "evidence": "Lina Chen works with Engineering Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Sara Khan works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "project:client-insights",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 42.0,
+      "evidence": "Sara Khan works with project Client Insights.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:mgr-product-001",
+      "target": "team:product-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 42.0,
+      "evidence": "Sara Khan works with Product Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Dev Patel works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "project:orion-renewal",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 56.0,
+      "evidence": "Dev Patel works with project Orion Renewal.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "project:platform-reliability",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 56.0,
+      "evidence": "Dev Patel works with project Platform Reliability.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:pm-001",
+      "target": "team:product-platform",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 56.0,
+      "evidence": "Dev Patel works with Product Platform.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "location:singapore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Ken Tan works from Singapore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "project:data-export-guardrails",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 63.0,
+      "evidence": "Ken Tan works with project Data Export Guardrails.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:sec-001",
+      "target": "team:security-operations",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 63.0,
+      "evidence": "Ken Tan works with Security Operations.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:sec-002",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Priya Das works from Bangalore.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:sec-002",
+      "target": "project:data-export-guardrails",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 54.0,
+      "evidence": "Priya Das works with project Data Export Guardrails.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:sec-002",
+      "target": "team:security-operations",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 54.0,
+      "evidence": "Priya Das works with Security Operations.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "location:dubai",
+      "edge_type": "works_with",
+      "weight": 0.35,
+      "risk_score": 0.0,
+      "evidence": "Omar Singh works from Dubai.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "project:orion-renewal",
+      "edge_type": "works_with",
+      "weight": 0.95,
+      "risk_score": 58.0,
+      "evidence": "Omar Singh works with project Orion Renewal.",
+      "source_system": "project_digital_twin"
+    },
+    {
+      "source": "employee:vp-cs-001",
+      "target": "team:enterprise-success",
+      "edge_type": "works_with",
+      "weight": 1.0,
+      "risk_score": 58.0,
+      "evidence": "Omar Singh works with Enterprise Success.",
+      "source_system": "employee_digital_twin"
+    },
+    {
+      "source": "team:application-engineering",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.45,
+      "risk_score": 0.0,
+      "evidence": "Application Engineering primarily works from Bangalore.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:engineering-leadership",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.45,
+      "risk_score": 0.0,
+      "evidence": "Engineering Leadership primarily works from Bangalore.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:engineering-platform",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.45,
+      "risk_score": 0.0,
+      "evidence": "Engineering Platform primarily works from Bangalore.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:enterprise-success",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.45,
+      "risk_score": 0.0,
+      "evidence": "Enterprise Success primarily works from Bangalore.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:executive",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.45,
+      "risk_score": 0.0,
+      "evidence": "Executive primarily works from Bangalore.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:product-platform",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.45,
+      "risk_score": 0.0,
+      "evidence": "Product Platform primarily works from Bangalore.",
+      "source_system": "organizational_optimizer"
+    },
+    {
+      "source": "team:security-operations",
+      "target": "location:bangalore",
+      "edge_type": "works_with",
+      "weight": 0.45,
+      "risk_score": 0.0,
+      "evidence": "Security Operations primarily works from Bangalore.",
+      "source_system": "organizational_optimizer"
+    }
+  ],
+  "indexes": {
+    "node_type": {
+      "client": [
+        "client:northstar-retail",
+        "client:vertex-logistics",
+        "client:helio-health",
+        "client:acme-bank"
+      ],
+      "team": [
+        "team:executive",
+        "team:engineering-leadership",
+        "team:engineering-platform",
+        "team:application-engineering",
+        "team:product-platform",
+        "team:security-operations",
+        "team:enterprise-success"
+      ],
+      "department": [
+        "department:executive",
+        "department:engineering",
+        "department:product",
+        "department:security",
+        "department:customer-success"
+      ],
+      "location": [
+        "location:bangalore"
+      ],
+      "employee": [
+        "employee:ceo-001",
+        "employee:cto-001",
+        "employee:cpo-001",
+        "employee:ciso-001",
+        "employee:vp-cs-001",
+        "employee:mgr-platform-001",
+        "employee:mgr-app-001",
+        "employee:mgr-product-001",
+        "employee:pm-001",
+        "employee:design-001",
+        "employee:sec-001",
+        "employee:sec-002",
+        "employee:cs-001",
+        "employee:eng-001",
+        "employee:eng-002",
+        "employee:eng-003",
+        "employee:eng-004",
+        "employee:eng-005",
+        "employee:eng-006",
+        "employee:eng-007",
+        "employee:eng-008",
+        "employee:eng-009",
+        "employee:eng-010",
+        "employee:eng-011",
+        "employee:eng-012",
+        "employee:eng-013",
+        "employee:eng-014",
+        "employee:talent-005",
+        "employee:talent-004",
+        "employee:talent-002",
+        "employee:talent-001",
+        "employee:talent-003",
+        "employee:priya",
+        "employee:sarah",
+        "employee:david",
+        "employee:asha",
+        "employee:qdrant"
+      ],
+      "project": [
+        "project:company-operating-model",
+        "project:platform-reliability",
+        "project:client-insights",
+        "project:data-export-guardrails",
+        "project:orion-renewal",
+        "project:revenue-apis",
+        "project:zero-trust-data-export-automation",
+        "project:executive-workforce-intelligence-dashboard",
+        "project:ai-knowledge-brain-graph-expansion"
+      ],
+      "skill": [
+        "skill:strategy",
+        "skill:leadership",
+        "skill:architecture",
+        "skill:kubernetes",
+        "skill:ai-platform",
+        "skill:product-strategy",
+        "skill:analytics",
+        "skill:security",
+        "skill:zero-trust",
+        "skill:client-recovery",
+        "skill:renewals",
+        "skill:mlops",
+        "skill:python",
+        "skill:incident-response",
+        "skill:api",
+        "skill:postgresql",
+        "skill:research",
+        "skill:delivery",
+        "skill:communication",
+        "skill:ux",
+        "skill:threat-modeling",
+        "skill:soc",
+        "skill:observability",
+        "skill:accessibility",
+        "skill:ai-product-strategy",
+        "skill:api-reliability",
+        "skill:dashboard-design",
+        "skill:fastapi",
+        "skill:forecasting",
+        "skill:payment-failure",
+        "skill:database-recovery",
+        "skill:architecture-decision",
+        "skill:rag",
+        "skill:vector-search",
+        "skill:qdrant"
+      ],
+      "knowledge_asset": [
+        "knowledge:kubernetes-production-outage-recovery",
+        "knowledge:postgresql-database-outage-postmortem",
+        "knowledge:project-beta-architecture-decision-record",
+        "knowledge:payment-api-failure-resolution-runbook",
+        "knowledge:kubernetes-production-recovery-discussion",
+        "knowledge:model-registry-release-notes",
+        "knowledge:security-gateway-incident-ticket",
+        "knowledge:frontend-dashboard-architecture-review",
+        "knowledge:payment-api-jira-escalation",
+        "knowledge:fixture-kubernetes-runbook",
+        "knowledge:fixture-pdf-payment-failure",
+        "knowledge:fixture-docx-database-outage",
+        "knowledge:fixture-pptx-project-beta",
+        "knowledge:fixture-xlsx-expertise-matrix"
+      ]
+    },
+    "department": {
+      "unknown": [
+        "client:northstar-retail",
+        "client:vertex-logistics",
+        "client:helio-health",
+        "client:acme-bank",
+        "location:bangalore",
+        "skill:strategy",
+        "skill:leadership",
+        "skill:architecture",
+        "skill:kubernetes",
+        "skill:ai-platform",
+        "skill:product-strategy",
+        "skill:analytics",
+        "skill:security",
+        "skill:zero-trust",
+        "skill:client-recovery",
+        "skill:renewals",
+        "skill:mlops",
+        "skill:python",
+        "skill:incident-response",
+        "skill:api",
+        "skill:postgresql",
+        "skill:research",
+        "skill:delivery",
+        "skill:communication",
+        "skill:ux",
+        "skill:threat-modeling",
+        "skill:soc",
+        "skill:observability",
+        "skill:accessibility",
+        "skill:ai-product-strategy",
+        "skill:api-reliability",
+        "skill:dashboard-design",
+        "skill:fastapi",
+        "skill:forecasting",
+        "project:zero-trust-data-export-automation",
+        "project:executive-workforce-intelligence-dashboard",
+        "project:ai-knowledge-brain-graph-expansion",
+        "knowledge:kubernetes-production-outage-recovery",
+        "knowledge:postgresql-database-outage-postmortem",
+        "knowledge:project-beta-architecture-decision-record",
+        "knowledge:payment-api-failure-resolution-runbook",
+        "knowledge:kubernetes-production-recovery-discussion",
+        "knowledge:model-registry-release-notes",
+        "knowledge:security-gateway-incident-ticket",
+        "knowledge:frontend-dashboard-architecture-review",
+        "knowledge:payment-api-jira-escalation",
+        "knowledge:fixture-kubernetes-runbook",
+        "skill:payment-failure",
+        "knowledge:fixture-pdf-payment-failure",
+        "skill:database-recovery",
+        "knowledge:fixture-docx-database-outage",
+        "skill:architecture-decision",
+        "knowledge:fixture-pptx-project-beta",
+        "skill:rag",
+        "knowledge:fixture-xlsx-expertise-matrix",
+        "skill:vector-search",
+        "skill:qdrant"
+      ],
+      "Executive": [
+        "team:executive",
+        "department:executive",
+        "employee:ceo-001",
+        "project:company-operating-model"
+      ],
+      "Engineering": [
+        "team:engineering-leadership",
+        "department:engineering",
+        "team:engineering-platform",
+        "team:application-engineering",
+        "employee:cto-001",
+        "project:platform-reliability",
+        "employee:mgr-platform-001",
+        "employee:mgr-app-001",
+        "project:revenue-apis",
+        "employee:eng-001",
+        "employee:eng-002",
+        "employee:eng-003",
+        "employee:eng-004",
+        "employee:eng-005",
+        "employee:eng-006",
+        "employee:eng-007",
+        "employee:eng-008",
+        "employee:eng-009",
+        "employee:eng-010",
+        "employee:eng-011",
+        "employee:eng-012",
+        "employee:eng-013",
+        "employee:eng-014",
+        "employee:talent-004",
+        "employee:talent-001"
+      ],
+      "Product": [
+        "team:product-platform",
+        "department:product",
+        "employee:cpo-001",
+        "project:client-insights",
+        "employee:mgr-product-001",
+        "employee:pm-001",
+        "employee:design-001"
+      ],
+      "Security": [
+        "team:security-operations",
+        "department:security",
+        "employee:ciso-001",
+        "project:data-export-guardrails",
+        "employee:sec-001",
+        "employee:sec-002",
+        "employee:talent-002"
+      ],
+      "Customer Success": [
+        "team:enterprise-success",
+        "department:customer-success",
+        "employee:vp-cs-001",
+        "project:orion-renewal",
+        "employee:cs-001"
+      ],
+      "Experience": [
+        "employee:talent-005"
+      ],
+      "AI Platform": [
+        "employee:talent-003"
+      ],
+      "Enterprise": [
+        "employee:priya",
+        "employee:sarah",
+        "employee:david",
+        "employee:asha",
+        "employee:qdrant"
+      ]
+    },
+    "edge_type": {
+      "collaborates_with": [
+        "employee:ceo-001->department:executive",
+        "employee:ciso-001->department:security",
+        "employee:cpo-001->department:product",
+        "employee:cs-001->department:customer-success",
+        "employee:cto-001->department:engineering",
+        "employee:design-001->department:product",
+        "employee:eng-001->department:engineering",
+        "employee:eng-002->department:engineering",
+        "employee:eng-003->department:engineering",
+        "employee:eng-004->department:engineering",
+        "employee:eng-005->department:engineering",
+        "employee:eng-006->department:engineering",
+        "employee:eng-007->department:engineering",
+        "employee:eng-008->department:engineering",
+        "employee:eng-009->department:engineering",
+        "employee:eng-010->department:engineering",
+        "employee:eng-011->department:engineering",
+        "employee:eng-012->department:engineering",
+        "employee:eng-013->department:engineering",
+        "employee:eng-014->department:engineering",
+        "employee:mgr-app-001->department:engineering",
+        "employee:mgr-platform-001->department:engineering",
+        "employee:mgr-product-001->department:product",
+        "employee:pm-001->department:product",
+        "employee:sec-001->department:security",
+        "employee:sec-002->department:security",
+        "employee:talent-001->project:ai-knowledge-brain-graph-expansion",
+        "employee:talent-001->project:zero-trust-data-export-automation",
+        "employee:talent-002->project:zero-trust-data-export-automation",
+        "employee:talent-003->project:ai-knowledge-brain-graph-expansion",
+        "employee:talent-004->project:ai-knowledge-brain-graph-expansion",
+        "employee:talent-005->project:executive-workforce-intelligence-dashboard",
+        "employee:vp-cs-001->department:customer-success",
+        "team:application-engineering->department:engineering",
+        "team:engineering-leadership->department:engineering",
+        "team:engineering-platform->department:engineering",
+        "team:enterprise-success->department:customer-success",
+        "team:executive->department:executive",
+        "team:product-platform->department:product",
+        "team:security-operations->department:security"
+      ],
+      "communicates_with": [
+        "employee:ciso-001->employee:cto-001",
+        "employee:ciso-001->employee:sec-001",
+        "employee:ciso-001->employee:sec-002",
+        "employee:cpo-001->employee:cto-001",
+        "employee:cpo-001->employee:design-001",
+        "employee:cpo-001->employee:pm-001",
+        "employee:cs-001->employee:pm-001",
+        "employee:cto-001->employee:ciso-001",
+        "employee:cto-001->employee:cpo-001",
+        "employee:cto-001->employee:vp-cs-001",
+        "employee:design-001->employee:pm-001",
+        "employee:eng-001->employee:mgr-platform-001",
+        "employee:eng-001->employee:pm-001",
+        "employee:eng-001->employee:sec-001",
+        "employee:eng-002->employee:mgr-platform-001",
+        "employee:eng-002->employee:pm-001",
+        "employee:eng-002->employee:sec-001",
+        "employee:eng-003->employee:mgr-platform-001",
+        "employee:eng-003->employee:pm-001",
+        "employee:eng-004->employee:mgr-platform-001",
+        "employee:eng-004->employee:pm-001",
+        "employee:eng-005->employee:mgr-platform-001",
+        "employee:eng-005->employee:pm-001",
+        "employee:eng-006->employee:mgr-platform-001",
+        "employee:eng-006->employee:pm-001",
+        "employee:eng-007->employee:mgr-platform-001",
+        "employee:eng-007->employee:pm-001",
+        "employee:eng-008->employee:mgr-platform-001",
+        "employee:eng-008->employee:pm-001",
+        "employee:eng-009->employee:mgr-platform-001",
+        "employee:eng-009->employee:pm-001",
+        "employee:eng-010->employee:mgr-app-001",
+        "employee:eng-010->employee:pm-001",
+        "employee:eng-011->employee:mgr-app-001",
+        "employee:eng-011->employee:pm-001",
+        "employee:eng-012->employee:mgr-app-001",
+        "employee:eng-012->employee:pm-001",
+        "employee:eng-013->employee:mgr-app-001",
+        "employee:eng-013->employee:pm-001",
+        "employee:eng-014->employee:mgr-app-001",
+        "employee:eng-014->employee:pm-001",
+        "employee:mgr-app-001->employee:eng-006",
+        "employee:mgr-app-001->employee:eng-007",
+        "employee:mgr-app-001->employee:pm-001",
+        "employee:mgr-platform-001->employee:eng-001",
+        "employee:mgr-platform-001->employee:eng-002",
+        "employee:mgr-platform-001->employee:eng-003",
+        "employee:mgr-platform-001->employee:mgr-product-001",
+        "employee:mgr-platform-001->employee:sec-001",
+        "employee:mgr-product-001->employee:design-001",
+        "employee:mgr-product-001->employee:mgr-platform-001",
+        "employee:mgr-product-001->employee:pm-001",
+        "employee:pm-001->employee:mgr-app-001",
+        "employee:pm-001->employee:vp-cs-001",
+        "employee:sec-001->employee:mgr-platform-001",
+        "employee:sec-001->employee:sec-002",
+        "employee:sec-002->employee:sec-001",
+        "employee:vp-cs-001->employee:cs-001",
+        "employee:vp-cs-001->employee:cto-001",
+        "employee:vp-cs-001->employee:pm-001"
+      ],
+      "depends_on": [
+        "project:client-insights->team:product-leadership",
+        "project:client-insights->team:product-platform",
+        "project:company-operating-model->team:executive",
+        "project:data-export-guardrails->team:security-operations",
+        "project:orion-renewal->team:enterprise-success",
+        "project:orion-renewal->team:product-platform",
+        "project:platform-reliability->team:engineering-leadership",
+        "project:platform-reliability->team:engineering-platform",
+        "project:platform-reliability->team:product-platform",
+        "project:revenue-apis->team:application-engineering",
+        "skill:architecture-decision->employee:david",
+        "skill:database-recovery->employee:sarah",
+        "skill:payment-failure->employee:priya",
+        "skill:postgresql->employee:sarah",
+        "skill:qdrant->employee:asha",
+        "skill:qdrant->employee:qdrant",
+        "skill:rag->employee:asha",
+        "skill:rag->employee:qdrant",
+        "skill:vector-search->employee:asha",
+        "skill:vector-search->employee:qdrant"
+      ],
+      "mentors": [
+        "employee:mgr-platform-001->employee:eng-004",
+        "employee:mgr-platform-001->employee:eng-005",
+        "employee:talent-001->employee:talent-002",
+        "employee:talent-001->employee:talent-003",
+        "employee:talent-001->employee:talent-004",
+        "employee:talent-001->employee:talent-005",
+        "employee:talent-002->employee:talent-001",
+        "employee:talent-002->employee:talent-004",
+        "employee:talent-002->employee:talent-005"
+      ],
+      "reports_to": [
+        "employee:ciso-001->employee:ceo-001",
+        "employee:cpo-001->employee:ceo-001",
+        "employee:cs-001->employee:vp-cs-001",
+        "employee:cto-001->employee:ceo-001",
+        "employee:design-001->employee:mgr-product-001",
+        "employee:eng-001->employee:mgr-platform-001",
+        "employee:eng-002->employee:mgr-platform-001",
+        "employee:eng-003->employee:mgr-platform-001",
+        "employee:eng-004->employee:mgr-platform-001",
+        "employee:eng-005->employee:mgr-platform-001",
+        "employee:eng-006->employee:mgr-platform-001",
+        "employee:eng-007->employee:mgr-platform-001",
+        "employee:eng-008->employee:mgr-platform-001",
+        "employee:eng-009->employee:mgr-platform-001",
+        "employee:eng-010->employee:mgr-app-001",
+        "employee:eng-011->employee:mgr-app-001",
+        "employee:eng-012->employee:mgr-app-001",
+        "employee:eng-013->employee:mgr-app-001",
+        "employee:eng-014->employee:mgr-app-001",
+        "employee:mgr-app-001->employee:cto-001",
+        "employee:mgr-platform-001->employee:cto-001",
+        "employee:mgr-product-001->employee:cpo-001",
+        "employee:pm-001->employee:mgr-product-001",
+        "employee:sec-001->employee:ciso-001",
+        "employee:sec-002->employee:ciso-001",
+        "employee:vp-cs-001->employee:ceo-001"
+      ],
+      "shares_knowledge_with": [
+        "employee:asha->knowledge:fixture-xlsx-expertise-matrix",
+        "employee:ceo-001->skill:leadership",
+        "employee:ceo-001->skill:strategy",
+        "employee:ciso-001->skill:kubernetes",
+        "employee:ciso-001->skill:security",
+        "employee:ciso-001->skill:zero-trust",
+        "employee:cpo-001->skill:analytics",
+        "employee:cpo-001->skill:product-strategy",
+        "employee:cs-001->skill:client-recovery",
+        "employee:cs-001->skill:renewals",
+        "employee:cto-001->skill:ai-platform",
+        "employee:cto-001->skill:architecture",
+        "employee:cto-001->skill:kubernetes",
+        "employee:david->knowledge:fixture-pptx-project-beta",
+        "employee:design-001->skill:research",
+        "employee:design-001->skill:ux",
+        "employee:eng-001->skill:kubernetes",
+        "employee:eng-001->skill:observability",
+        "employee:eng-001->skill:python",
+        "employee:eng-002->skill:kubernetes",
+        "employee:eng-002->skill:postgresql",
+        "employee:eng-002->skill:python",
+        "employee:eng-003->skill:kubernetes",
+        "employee:eng-003->skill:observability",
+        "employee:eng-003->skill:python",
+        "employee:eng-004->skill:api",
+        "employee:eng-004->skill:postgresql",
+        "employee:eng-004->skill:python",
+        "employee:eng-005->skill:api",
+        "employee:eng-005->skill:observability",
+        "employee:eng-005->skill:python",
+        "employee:eng-006->skill:api",
+        "employee:eng-006->skill:postgresql",
+        "employee:eng-006->skill:python",
+        "employee:eng-007->skill:api",
+        "employee:eng-007->skill:observability",
+        "employee:eng-007->skill:python",
+        "employee:eng-008->skill:api",
+        "employee:eng-008->skill:postgresql",
+        "employee:eng-008->skill:python",
+        "employee:eng-009->skill:api",
+        "employee:eng-009->skill:observability",
+        "employee:eng-009->skill:python",
+        "employee:eng-010->skill:api",
+        "employee:eng-010->skill:postgresql",
+        "employee:eng-010->skill:python",
+        "employee:eng-011->skill:api",
+        "employee:eng-011->skill:observability",
+        "employee:eng-011->skill:python",
+        "employee:eng-012->skill:api",
+        "employee:eng-012->skill:postgresql",
+        "employee:eng-012->skill:python",
+        "employee:eng-013->skill:api",
+        "employee:eng-013->skill:observability",
+        "employee:eng-013->skill:python",
+        "employee:eng-014->skill:api",
+        "employee:eng-014->skill:postgresql",
+        "employee:eng-014->skill:python",
+        "employee:mgr-app-001->skill:api",
+        "employee:mgr-app-001->skill:postgresql",
+        "employee:mgr-app-001->skill:python",
+        "employee:mgr-platform-001->skill:incident-response",
+        "employee:mgr-platform-001->skill:kubernetes",
+        "employee:mgr-platform-001->skill:mlops",
+        "employee:mgr-platform-001->skill:python",
+        "employee:mgr-product-001->skill:analytics",
+        "employee:mgr-product-001->skill:product-strategy",
+        "employee:mgr-product-001->skill:research",
+        "employee:pm-001->skill:communication",
+        "employee:pm-001->skill:delivery",
+        "employee:priya->knowledge:fixture-pdf-payment-failure",
+        "employee:qdrant->knowledge:fixture-xlsx-expertise-matrix",
+        "employee:sarah->knowledge:fixture-docx-database-outage",
+        "employee:sec-001->skill:security",
+        "employee:sec-001->skill:threat-modeling",
+        "employee:sec-001->skill:zero-trust",
+        "employee:sec-002->skill:incident-response",
+        "employee:sec-002->skill:soc",
+        "employee:talent-001->skill:architecture",
+        "employee:talent-001->skill:incident-response",
+        "employee:talent-001->skill:kubernetes",
+        "employee:talent-002->skill:architecture",
+        "employee:talent-003->skill:forecasting",
+        "employee:talent-004->skill:api-reliability",
+        "employee:talent-004->skill:architecture",
+        "employee:talent-004->skill:fastapi",
+        "employee:talent-005->skill:accessibility",
+        "employee:talent-005->skill:ai-product-strategy",
+        "employee:talent-005->skill:analytics",
+        "employee:talent-005->skill:dashboard-design",
+        "employee:vp-cs-001->skill:client-recovery",
+        "employee:vp-cs-001->skill:renewals"
+      ],
+      "works_with": [
+        "employee:ceo-001->location:bangalore",
+        "employee:ceo-001->project:company-operating-model",
+        "employee:ceo-001->team:executive",
+        "employee:ciso-001->location:singapore",
+        "employee:ciso-001->project:data-export-guardrails",
+        "employee:ciso-001->team:security-operations",
+        "employee:cpo-001->location:bangalore",
+        "employee:cpo-001->project:client-insights",
+        "employee:cpo-001->team:product-leadership",
+        "employee:cs-001->location:dubai",
+        "employee:cs-001->project:orion-renewal",
+        "employee:cs-001->team:enterprise-success",
+        "employee:cto-001->location:bangalore",
+        "employee:cto-001->project:platform-reliability",
+        "employee:cto-001->team:engineering-leadership",
+        "employee:design-001->location:bangalore",
+        "employee:design-001->project:client-insights",
+        "employee:design-001->team:product-platform",
+        "employee:eng-001->location:bangalore",
+        "employee:eng-001->project:platform-reliability",
+        "employee:eng-001->team:engineering-platform",
+        "employee:eng-002->location:bangalore",
+        "employee:eng-002->project:platform-reliability",
+        "employee:eng-002->team:engineering-platform",
+        "employee:eng-003->location:remote",
+        "employee:eng-003->project:platform-reliability",
+        "employee:eng-003->team:engineering-platform",
+        "employee:eng-004->location:bangalore",
+        "employee:eng-004->project:platform-reliability",
+        "employee:eng-004->team:engineering-platform",
+        "employee:eng-005->location:bangalore",
+        "employee:eng-005->project:platform-reliability",
+        "employee:eng-005->team:engineering-platform",
+        "employee:eng-006->location:remote",
+        "employee:eng-006->project:platform-reliability",
+        "employee:eng-006->team:engineering-platform",
+        "employee:eng-007->location:bangalore",
+        "employee:eng-007->project:platform-reliability",
+        "employee:eng-007->team:engineering-platform",
+        "employee:eng-008->location:bangalore",
+        "employee:eng-008->project:platform-reliability",
+        "employee:eng-008->team:engineering-platform",
+        "employee:eng-009->location:remote",
+        "employee:eng-009->project:platform-reliability",
+        "employee:eng-009->team:engineering-platform",
+        "employee:eng-010->location:bangalore",
+        "employee:eng-010->project:revenue-apis",
+        "employee:eng-010->team:application-engineering",
+        "employee:eng-011->location:bangalore",
+        "employee:eng-011->project:revenue-apis",
+        "employee:eng-011->team:application-engineering",
+        "employee:eng-012->location:remote",
+        "employee:eng-012->project:revenue-apis",
+        "employee:eng-012->team:application-engineering",
+        "employee:eng-013->location:bangalore",
+        "employee:eng-013->project:revenue-apis",
+        "employee:eng-013->team:application-engineering",
+        "employee:eng-014->location:bangalore",
+        "employee:eng-014->project:revenue-apis",
+        "employee:eng-014->team:application-engineering",
+        "employee:mgr-app-001->location:bangalore",
+        "employee:mgr-app-001->project:revenue-apis",
+        "employee:mgr-app-001->team:application-engineering",
+        "employee:mgr-platform-001->location:bangalore",
+        "employee:mgr-platform-001->project:platform-reliability",
+        "employee:mgr-platform-001->team:engineering-platform",
+        "employee:mgr-product-001->location:bangalore",
+        "employee:mgr-product-001->project:client-insights",
+        "employee:mgr-product-001->team:product-platform",
+        "employee:pm-001->location:bangalore",
+        "employee:pm-001->project:orion-renewal",
+        "employee:pm-001->project:platform-reliability",
+        "employee:pm-001->team:product-platform",
+        "employee:sec-001->location:singapore",
+        "employee:sec-001->project:data-export-guardrails",
+        "employee:sec-001->team:security-operations",
+        "employee:sec-002->location:bangalore",
+        "employee:sec-002->project:data-export-guardrails",
+        "employee:sec-002->team:security-operations",
+        "employee:vp-cs-001->location:dubai",
+        "employee:vp-cs-001->project:orion-renewal",
+        "employee:vp-cs-001->team:enterprise-success",
+        "team:application-engineering->location:bangalore",
+        "team:engineering-leadership->location:bangalore",
+        "team:engineering-platform->location:bangalore",
+        "team:enterprise-success->location:bangalore",
+        "team:executive->location:bangalore",
+        "team:product-platform->location:bangalore",
+        "team:security-operations->location:bangalore"
+      ]
+    }
+  }
+}

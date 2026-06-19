@@ -225,10 +225,22 @@ export function OrganizationalBrainPanel() {
                 </option>
               ))}
             </select>
-            <button type="button" onClick={() => setZoom((value) => Math.min(1.8, value + 0.12))} className="grid size-10 place-items-center border border-line bg-panel2 text-slate-200">
+            <button
+              type="button"
+              aria-label="Zoom in organizational brain graph"
+              title="Zoom in"
+              onClick={() => setZoom((value) => Math.min(1.8, value + 0.12))}
+              className="grid size-10 place-items-center border border-line bg-panel2 text-slate-200"
+            >
               <ZoomIn className="size-4" />
             </button>
-            <button type="button" onClick={() => setZoom((value) => Math.max(0.7, value - 0.12))} className="grid size-10 place-items-center border border-line bg-panel2 text-slate-200">
+            <button
+              type="button"
+              aria-label="Zoom out organizational brain graph"
+              title="Zoom out"
+              onClick={() => setZoom((value) => Math.max(0.7, value - 0.12))}
+              className="grid size-10 place-items-center border border-line bg-panel2 text-slate-200"
+            >
               <ZoomOut className="size-4" />
             </button>
           </div>
@@ -306,7 +318,13 @@ export function OrganizationalBrainPanel() {
                 onChange={(event) => setQuestion(event.target.value)}
                 className="h-10 min-w-0 flex-1 border border-line bg-void/40 px-3 text-sm text-white outline-none placeholder:text-slate-500"
               />
-              <button type="button" onClick={() => void askAssistant()} className="grid h-10 w-12 place-items-center border border-cyan/40 bg-cyan/10 text-cyan">
+              <button
+                type="button"
+                aria-label="Ask organizational brain"
+                title="Ask organizational brain"
+                onClick={() => void askAssistant()}
+                className="grid h-10 w-12 place-items-center border border-cyan/40 bg-cyan/10 text-cyan"
+              >
                 {assistantLoading ? <Loader2 className="size-4 animate-spin" /> : <Send className="size-4" />}
               </button>
             </div>

@@ -4,20 +4,26 @@ import { RotateCcw } from "lucide-react";
 
 export default function Error({ reset }: { error: Error & { digest?: string }; reset: () => void }) {
   return (
-    <main className="grid min-h-screen place-items-center bg-void px-4 text-slate-100">
-      <section className="max-w-lg border border-signal/40 bg-panel/90 p-6 shadow-signal">
-        <p className="text-xs uppercase text-signal">Command center interrupted</p>
-        <h1 className="mt-3 text-2xl font-semibold text-white">The command center hit a recoverable runtime fault.</h1>
+    <main className="cinematic-shell grid min-h-screen place-items-center px-4 text-slate-100">
+      <section className="hud-panel max-w-lg p-6 shadow-signal">
+        <div className="neural-mesh" />
+        <div className="hud-content">
+          <p className="premium-kicker text-signal">
+            <RotateCcw className="size-3" />
+            Command center interrupted
+          </p>
+          <h1 className="mt-4 text-2xl font-semibold text-white">The command center hit a recoverable runtime fault.</h1>
         <p className="mt-3 text-sm leading-6 text-slate-400">
           NEXUSMIND isolated the failure boundary. Retry the command center stream.
         </p>
         <button
           onClick={reset}
-          className="mt-5 inline-flex items-center gap-2 border border-cyan/40 bg-cyan/10 px-4 py-2 text-sm text-cyan"
+          className="cinematic-button mt-5 inline-flex h-10 items-center gap-2 px-4 text-sm text-cyan"
         >
           <RotateCcw className="size-4" />
           Retry
         </button>
+        </div>
       </section>
     </main>
   );

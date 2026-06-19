@@ -198,7 +198,9 @@ export function JudgeStorytellingEnginePanel({ dashboard, impact }: JudgeStoryte
     <section id="judge-story-mode" data-testid="judge-storytelling-engine" className="hud-panel mb-4 p-4 sm:p-5 lg:p-6">
       <div className="hud-content">
         <div className="grid gap-5 xl:grid-cols-[1.05fr_0.95fr]">
-          <article className="cinematic-card p-5 sm:p-6">
+          <article className="cinematic-card luxury-hero p-5 sm:p-6">
+            <div className="neural-mesh" />
+            <div className="decision-lattice" />
             <div className="hud-content">
               <div className="flex flex-wrap items-center gap-2 text-xs uppercase text-cyan">
                 <Clapperboard className="size-4" />
@@ -208,14 +210,21 @@ export function JudgeStorytellingEnginePanel({ dashboard, impact }: JudgeStoryte
                 <span className="border border-cyan/30 bg-cyan/10 px-2 py-1 text-cyan">{phaseLabels[phase]}</span>
               </div>
 
-              <h1 className="mt-4 max-w-4xl text-3xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
-                Imagine discovering company failure before it happens.
+              <h1 className="mt-5 max-w-4xl text-4xl font-semibold leading-tight text-white sm:text-6xl lg:text-7xl">
+                Predict the Future of Your Enterprise.
               </h1>
-              <p className="mt-4 max-w-3xl text-base leading-7 text-slate-300">
-                A company can look healthy while projects quietly slip, employees burn out, revenue weakens, and management sees the damage too late. NEXUSMIND AI turns that hidden collapse into an early warning and a recovery plan.
+              <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-200">
+                An Autonomous Enterprise Intelligence & Digital Twin Platform.
+              </p>
+              <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-400">
+                See the hidden collapse before it happens: workforce pressure, project failure, revenue exposure, AI Boardroom debate, Shadow Company simulation, and a recovery plan in one cinematic command system.
               </p>
 
               <div className="mt-5 flex flex-wrap gap-3">
+                <a href="#cinematic-command-center" className="cinematic-button inline-flex h-11 items-center gap-2 px-4 text-sm font-semibold text-white">
+                  <ArrowRight className="size-4 text-cyan" />
+                  Enter Command Center
+                </a>
                 <button type="button" onClick={runStoryMode} className="cinematic-button inline-flex h-11 items-center gap-2 px-4 text-sm font-semibold text-white">
                   {running ? <Zap className="size-4 animate-pulse text-cyan" /> : <Play className="size-4 text-cyan" />}
                   WOW Mode: Show The Future
@@ -226,7 +235,7 @@ export function JudgeStorytellingEnginePanel({ dashboard, impact }: JudgeStoryte
                 </a>
               </div>
 
-              <div className="mt-5 grid gap-3 md:grid-cols-3">
+              <div className="mt-6 grid gap-3 md:grid-cols-3">
                 <StoryMetric icon={ShieldCheck} label="Today" value={`${dashboard.companyHealth}/100 health`} tone="mint" />
                 <StoryMetric icon={AlertTriangle} label="Hidden risk" value={`${riskProbability}% failure signal`} tone="signal" />
                 <StoryMetric icon={CircleDollarSign} label="Value protected" value={formatMoney(protectedValue)} tone="cyan" />

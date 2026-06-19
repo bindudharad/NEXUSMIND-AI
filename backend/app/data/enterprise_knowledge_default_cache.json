@@ -1,15 +1,15 @@
 {
   "model": "Enterprise Knowledge AI Company Brain",
-  "generated_at": "2026-06-08T16:53:13.075181Z",
+  "generated_at": "2026-06-09T03:47:40.207696Z",
   "summary": {
     "knowledge_health_score": 100.0,
-    "documents_indexed": 286,
-    "chunks_indexed": 286,
-    "experts_detected": 70,
-    "graph_nodes": 713,
-    "graph_edges": 3620,
-    "incidents_detected": 171,
-    "solutions_detected": 121,
+    "documents_indexed": 301,
+    "chunks_indexed": 301,
+    "experts_detected": 73,
+    "graph_nodes": 746,
+    "graph_edges": 3809,
+    "incidents_detected": 180,
+    "solutions_detected": 127,
     "sop_gaps": 8,
     "qdrant_status": "configured:http://localhost:6333; using_local_dense_embedding_fallback_until_reachable; reason=timed out",
     "neo4j_status": "configured:bolt://localhost:7687; using_json_graph_fallback_until_reachable; reason=Couldn't connect to localhost:7687 (resolved to ()):\nTimed out trying to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0))\nTi"
@@ -76,7 +76,7 @@
           "rollback"
         ]
       },
-      "created_at": "2026-06-08T14:18:56.620433Z"
+      "created_at": "2026-06-09T03:30:09.721753Z"
     },
     {
       "document_id": "seed-postgresql-database-outage",
@@ -138,7 +138,7 @@
           "failover"
         ]
       },
-      "created_at": "2026-06-08T14:18:56.620433Z"
+      "created_at": "2026-06-09T03:30:09.721753Z"
     },
     {
       "document_id": "seed-project-beta-architecture",
@@ -206,7 +206,7 @@
           "Project Beta"
         ]
       },
-      "created_at": "2026-06-08T14:18:56.620433Z"
+      "created_at": "2026-06-09T03:30:09.721753Z"
     },
     {
       "document_id": "seed-payment-failure-runbook",
@@ -268,7 +268,7 @@
           "rollback"
         ]
       },
-      "created_at": "2026-06-08T14:18:56.620433Z"
+      "created_at": "2026-06-09T03:30:09.721753Z"
     },
     {
       "document_id": "loss-klp-001",
@@ -335,7 +335,7 @@
         "business_criticality": 0.96,
         "documentation_quality": 0.38
       },
-      "created_at": "2026-06-08T14:18:56.620433Z"
+      "created_at": "2026-06-09T03:30:09.721753Z"
     },
     {
       "document_id": "loss-klp-002",
@@ -392,7 +392,7 @@
         "business_criticality": 0.86,
         "documentation_quality": 0.78
       },
-      "created_at": "2026-06-08T14:18:56.620433Z"
+      "created_at": "2026-06-09T03:30:09.721753Z"
     },
     {
       "document_id": "loss-klp-003",
@@ -453,7 +453,7 @@
         "business_criticality": 0.9,
         "documentation_quality": 0.55
       },
-      "created_at": "2026-06-08T14:18:56.620433Z"
+      "created_at": "2026-06-09T03:30:09.721753Z"
     },
     {
       "document_id": "loss-klp-004",
@@ -504,7 +504,7 @@
         "business_criticality": 0.64,
         "documentation_quality": 0.82
       },
-      "created_at": "2026-06-08T14:18:56.620433Z"
+      "created_at": "2026-06-09T03:30:09.721753Z"
     },
     {
       "document_id": "loss-klp-005",
@@ -561,7 +561,7 @@
         "business_criticality": 0.78,
         "documentation_quality": 0.74
       },
-      "created_at": "2026-06-08T14:18:56.620433Z"
+      "created_at": "2026-06-09T03:30:09.721753Z"
     },
     {
       "document_id": "fixture-kubernetes-5a78332682c24c2790e69befee22f6fb",
@@ -1582,7 +1582,7 @@
         "Kubernetes Platform"
       ],
       "metadata": {
-        "employee_id": "emp-omar-b934fd8c6cd949a4a6c31c28d1e943d6",
+        "employee_id": "emp-omar-fbad5b06820f4d99b3467d33b6fe51c2",
         "employee_name": "Omar",
         "department": "Platform",
         "team": "Reliability",
@@ -1595,7 +1595,7 @@
         ],
         "source_system": "multipart_upload"
       },
-      "created_at": "2026-06-08T04:05:20.260882Z"
+      "created_at": "2026-06-08T15:57:53.514447Z"
     },
     {
       "document_id": "fixture-kubernetes-8bb04909a9c949f8bfe8310e83b7c5f9",
@@ -14168,6 +14168,744 @@
         "source_system": "pytest_fixtures"
       },
       "created_at": "2026-06-08T04:05:11.552201Z"
+    },
+    {
+      "document_id": "fixture-kubernetes-23bb70760ab84dac894be580adfa2330",
+      "title": "Fixture Kubernetes Runbook",
+      "source_type": "text",
+      "file_name": "fixture-kubernetes-runbook.txt",
+      "parser": "plain_text_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Nina"
+        ],
+        "skills": [
+          "failover",
+          "incident response",
+          "node recovery",
+          "rollback",
+          "sop",
+          "kubernetes"
+        ],
+        "technologies": [
+          "helm",
+          "kubernetes"
+        ],
+        "projects": [],
+        "incidents": [
+          "Nina solved the Zephyr Kubernetes outage marker 23bb70760ab84dac894be580adfa2330 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+        ],
+        "solutions": [
+          "Nina solved the Zephyr Kubernetes outage marker 23bb70760ab84dac894be580adfa2330 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+        ],
+        "systems": [
+          "Kubernetes Platform"
+        ]
+      },
+      "experts": [
+        "Nina"
+      ],
+      "systems": [
+        "Kubernetes Platform"
+      ],
+      "metadata": {
+        "employee_id": "emp-nina-23bb70760ab84dac894be580adfa2330",
+        "employee_name": "Nina",
+        "department": "Platform",
+        "team": "Reliability",
+        "systems": [
+          "Kubernetes Platform"
+        ],
+        "skills": [
+          "kubernetes",
+          "node recovery",
+          "rollback",
+          "incident response"
+        ],
+        "business_criticality": 0.99,
+        "documentation_quality": 0.88,
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:13:39.210986Z"
+    },
+    {
+      "document_id": "fixture-pdf-23bb70760ab84dac894be580adfa2330",
+      "title": "Fixture PDF Payment Failure",
+      "source_type": "pdf",
+      "file_name": "payment-failure.pdf",
+      "parser": "pdf_text_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Priya"
+        ],
+        "skills": [
+          "payment failure"
+        ],
+        "technologies": [
+          "kafka",
+          "redis"
+        ],
+        "projects": [],
+        "incidents": [
+          "Priya fixed a payment failure by replaying Kafka events and clearing Redis locks."
+        ],
+        "solutions": [],
+        "systems": [
+          "Payment API"
+        ]
+      },
+      "experts": [
+        "Priya"
+      ],
+      "systems": [
+        "Payment API"
+      ],
+      "metadata": {
+        "employee_name": "Priya",
+        "skills": [
+          "payment failure"
+        ],
+        "systems": [
+          "Payment API"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:13:39.537150Z"
+    },
+    {
+      "document_id": "fixture-docx-23bb70760ab84dac894be580adfa2330",
+      "title": "Fixture DOCX Database Outage",
+      "source_type": "docx",
+      "file_name": "database-outage.docx",
+      "parser": "docx_zip_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Sarah"
+        ],
+        "skills": [
+          "database recovery",
+          "postgresql"
+        ],
+        "technologies": [
+          "postgresql"
+        ],
+        "projects": [],
+        "incidents": [
+          "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+        ],
+        "solutions": [
+          "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+        ],
+        "systems": [
+          "PostgreSQL Cluster"
+        ]
+      },
+      "experts": [
+        "Sarah"
+      ],
+      "systems": [
+        "PostgreSQL Cluster"
+      ],
+      "metadata": {
+        "employee_name": "Sarah",
+        "skills": [
+          "postgresql",
+          "database recovery"
+        ],
+        "systems": [
+          "PostgreSQL Cluster"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:13:40.002489Z"
+    },
+    {
+      "document_id": "fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "title": "Fixture PPTX Project Beta",
+      "source_type": "pptx",
+      "file_name": "project-beta.pptx",
+      "parser": "pptx_zip_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "David"
+        ],
+        "skills": [
+          "architecture decision"
+        ],
+        "technologies": [
+          "fastapi",
+          "kafka",
+          "neo4j",
+          "next.js",
+          "qdrant",
+          "spark"
+        ],
+        "projects": [
+          "Project Beta"
+        ],
+        "incidents": [],
+        "solutions": [],
+        "systems": []
+      },
+      "experts": [
+        "David"
+      ],
+      "systems": [],
+      "metadata": {
+        "employee_name": "David",
+        "projects": [
+          "Project Beta"
+        ],
+        "skills": [
+          "architecture decision"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:13:40.598812Z"
+    },
+    {
+      "document_id": "fixture-xlsx-23bb70760ab84dac894be580adfa2330",
+      "title": "Fixture XLSX Expertise Matrix",
+      "source_type": "xlsx",
+      "file_name": "expertise-matrix.xlsx",
+      "parser": "xlsx_zip_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Asha",
+          "Qdrant"
+        ],
+        "skills": [
+          "rag",
+          "vector search",
+          "qdrant"
+        ],
+        "technologies": [
+          "qdrant"
+        ],
+        "projects": [],
+        "incidents": [],
+        "solutions": [],
+        "systems": [
+          "Qdrant"
+        ]
+      },
+      "experts": [
+        "Asha",
+        "Qdrant"
+      ],
+      "systems": [
+        "Qdrant"
+      ],
+      "metadata": {
+        "employee_name": "Asha",
+        "skills": [
+          "qdrant",
+          "vector search",
+          "rag"
+        ],
+        "systems": [
+          "Qdrant"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:13:41.570456Z"
+    },
+    {
+      "document_id": "fixture-kubernetes-e24f992875754bac958a5d56c4b40aac",
+      "title": "Fixture Kubernetes Runbook",
+      "source_type": "text",
+      "file_name": "fixture-kubernetes-runbook.txt",
+      "parser": "plain_text_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Nina"
+        ],
+        "skills": [
+          "failover",
+          "incident response",
+          "node recovery",
+          "rollback",
+          "sop",
+          "kubernetes"
+        ],
+        "technologies": [
+          "helm",
+          "kubernetes"
+        ],
+        "projects": [],
+        "incidents": [
+          "Nina solved the Zephyr Kubernetes outage marker e24f992875754bac958a5d56c4b40aac with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+        ],
+        "solutions": [
+          "Nina solved the Zephyr Kubernetes outage marker e24f992875754bac958a5d56c4b40aac with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+        ],
+        "systems": [
+          "Kubernetes Platform"
+        ]
+      },
+      "experts": [
+        "Nina"
+      ],
+      "systems": [
+        "Kubernetes Platform"
+      ],
+      "metadata": {
+        "employee_id": "emp-nina-e24f992875754bac958a5d56c4b40aac",
+        "employee_name": "Nina",
+        "department": "Platform",
+        "team": "Reliability",
+        "systems": [
+          "Kubernetes Platform"
+        ],
+        "skills": [
+          "kubernetes",
+          "node recovery",
+          "rollback",
+          "incident response"
+        ],
+        "business_criticality": 0.99,
+        "documentation_quality": 0.88,
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:32:20.246047Z"
+    },
+    {
+      "document_id": "fixture-pdf-e24f992875754bac958a5d56c4b40aac",
+      "title": "Fixture PDF Payment Failure",
+      "source_type": "pdf",
+      "file_name": "payment-failure.pdf",
+      "parser": "pdf_text_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Priya"
+        ],
+        "skills": [
+          "payment failure"
+        ],
+        "technologies": [
+          "kafka",
+          "redis"
+        ],
+        "projects": [],
+        "incidents": [
+          "Priya fixed a payment failure by replaying Kafka events and clearing Redis locks."
+        ],
+        "solutions": [],
+        "systems": [
+          "Payment API"
+        ]
+      },
+      "experts": [
+        "Priya"
+      ],
+      "systems": [
+        "Payment API"
+      ],
+      "metadata": {
+        "employee_name": "Priya",
+        "skills": [
+          "payment failure"
+        ],
+        "systems": [
+          "Payment API"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:32:20.449098Z"
+    },
+    {
+      "document_id": "fixture-docx-e24f992875754bac958a5d56c4b40aac",
+      "title": "Fixture DOCX Database Outage",
+      "source_type": "docx",
+      "file_name": "database-outage.docx",
+      "parser": "docx_zip_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Sarah"
+        ],
+        "skills": [
+          "database recovery",
+          "postgresql"
+        ],
+        "technologies": [
+          "postgresql"
+        ],
+        "projects": [],
+        "incidents": [
+          "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+        ],
+        "solutions": [
+          "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+        ],
+        "systems": [
+          "PostgreSQL Cluster"
+        ]
+      },
+      "experts": [
+        "Sarah"
+      ],
+      "systems": [
+        "PostgreSQL Cluster"
+      ],
+      "metadata": {
+        "employee_name": "Sarah",
+        "skills": [
+          "postgresql",
+          "database recovery"
+        ],
+        "systems": [
+          "PostgreSQL Cluster"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:32:20.736506Z"
+    },
+    {
+      "document_id": "fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "title": "Fixture PPTX Project Beta",
+      "source_type": "pptx",
+      "file_name": "project-beta.pptx",
+      "parser": "pptx_zip_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "David"
+        ],
+        "skills": [
+          "architecture decision"
+        ],
+        "technologies": [
+          "fastapi",
+          "kafka",
+          "neo4j",
+          "next.js",
+          "qdrant",
+          "spark"
+        ],
+        "projects": [
+          "Project Beta"
+        ],
+        "incidents": [],
+        "solutions": [],
+        "systems": []
+      },
+      "experts": [
+        "David"
+      ],
+      "systems": [],
+      "metadata": {
+        "employee_name": "David",
+        "projects": [
+          "Project Beta"
+        ],
+        "skills": [
+          "architecture decision"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:32:21.026968Z"
+    },
+    {
+      "document_id": "fixture-xlsx-e24f992875754bac958a5d56c4b40aac",
+      "title": "Fixture XLSX Expertise Matrix",
+      "source_type": "xlsx",
+      "file_name": "expertise-matrix.xlsx",
+      "parser": "xlsx_zip_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Asha",
+          "Qdrant"
+        ],
+        "skills": [
+          "rag",
+          "vector search",
+          "qdrant"
+        ],
+        "technologies": [
+          "qdrant"
+        ],
+        "projects": [],
+        "incidents": [],
+        "solutions": [],
+        "systems": [
+          "Qdrant"
+        ]
+      },
+      "experts": [
+        "Asha",
+        "Qdrant"
+      ],
+      "systems": [
+        "Qdrant"
+      ],
+      "metadata": {
+        "employee_name": "Asha",
+        "skills": [
+          "qdrant",
+          "vector search",
+          "rag"
+        ],
+        "systems": [
+          "Qdrant"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:32:21.540714Z"
+    },
+    {
+      "document_id": "fixture-kubernetes-fbad5b06820f4d99b3467d33b6fe51c2",
+      "title": "Fixture Kubernetes Runbook",
+      "source_type": "text",
+      "file_name": "fixture-kubernetes-runbook.txt",
+      "parser": "plain_text_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Nina"
+        ],
+        "skills": [
+          "failover",
+          "incident response",
+          "node recovery",
+          "rollback",
+          "sop",
+          "kubernetes"
+        ],
+        "technologies": [
+          "helm",
+          "kubernetes"
+        ],
+        "projects": [],
+        "incidents": [
+          "Nina solved the Zephyr Kubernetes outage marker fbad5b06820f4d99b3467d33b6fe51c2 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+        ],
+        "solutions": [
+          "Nina solved the Zephyr Kubernetes outage marker fbad5b06820f4d99b3467d33b6fe51c2 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+        ],
+        "systems": [
+          "Kubernetes Platform"
+        ]
+      },
+      "experts": [
+        "Nina"
+      ],
+      "systems": [
+        "Kubernetes Platform"
+      ],
+      "metadata": {
+        "employee_id": "emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+        "employee_name": "Nina",
+        "department": "Platform",
+        "team": "Reliability",
+        "systems": [
+          "Kubernetes Platform"
+        ],
+        "skills": [
+          "kubernetes",
+          "node recovery",
+          "rollback",
+          "incident response"
+        ],
+        "business_criticality": 0.99,
+        "documentation_quality": 0.88,
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:57:42.272821Z"
+    },
+    {
+      "document_id": "fixture-pdf-fbad5b06820f4d99b3467d33b6fe51c2",
+      "title": "Fixture PDF Payment Failure",
+      "source_type": "pdf",
+      "file_name": "payment-failure.pdf",
+      "parser": "pdf_text_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Priya"
+        ],
+        "skills": [
+          "payment failure"
+        ],
+        "technologies": [
+          "kafka",
+          "redis"
+        ],
+        "projects": [],
+        "incidents": [
+          "Priya fixed a payment failure by replaying Kafka events and clearing Redis locks."
+        ],
+        "solutions": [],
+        "systems": [
+          "Payment API"
+        ]
+      },
+      "experts": [
+        "Priya"
+      ],
+      "systems": [
+        "Payment API"
+      ],
+      "metadata": {
+        "employee_name": "Priya",
+        "skills": [
+          "payment failure"
+        ],
+        "systems": [
+          "Payment API"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:57:42.475153Z"
+    },
+    {
+      "document_id": "fixture-docx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "title": "Fixture DOCX Database Outage",
+      "source_type": "docx",
+      "file_name": "database-outage.docx",
+      "parser": "docx_zip_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Sarah"
+        ],
+        "skills": [
+          "database recovery",
+          "postgresql"
+        ],
+        "technologies": [
+          "postgresql"
+        ],
+        "projects": [],
+        "incidents": [
+          "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+        ],
+        "solutions": [
+          "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+        ],
+        "systems": [
+          "PostgreSQL Cluster"
+        ]
+      },
+      "experts": [
+        "Sarah"
+      ],
+      "systems": [
+        "PostgreSQL Cluster"
+      ],
+      "metadata": {
+        "employee_name": "Sarah",
+        "skills": [
+          "postgresql",
+          "database recovery"
+        ],
+        "systems": [
+          "PostgreSQL Cluster"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:57:42.755212Z"
+    },
+    {
+      "document_id": "fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "title": "Fixture PPTX Project Beta",
+      "source_type": "pptx",
+      "file_name": "project-beta.pptx",
+      "parser": "pptx_zip_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "David"
+        ],
+        "skills": [
+          "architecture decision"
+        ],
+        "technologies": [
+          "fastapi",
+          "kafka",
+          "neo4j",
+          "next.js",
+          "qdrant",
+          "spark"
+        ],
+        "projects": [
+          "Project Beta"
+        ],
+        "incidents": [],
+        "solutions": [],
+        "systems": []
+      },
+      "experts": [
+        "David"
+      ],
+      "systems": [],
+      "metadata": {
+        "employee_name": "David",
+        "projects": [
+          "Project Beta"
+        ],
+        "skills": [
+          "architecture decision"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:57:43.018560Z"
+    },
+    {
+      "document_id": "fixture-xlsx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "title": "Fixture XLSX Expertise Matrix",
+      "source_type": "xlsx",
+      "file_name": "expertise-matrix.xlsx",
+      "parser": "xlsx_zip_fallback_parser",
+      "chunks": 1,
+      "extracted_entities": {
+        "people": [
+          "Asha",
+          "Qdrant"
+        ],
+        "skills": [
+          "rag",
+          "vector search",
+          "qdrant"
+        ],
+        "technologies": [
+          "qdrant"
+        ],
+        "projects": [],
+        "incidents": [],
+        "solutions": [],
+        "systems": [
+          "Qdrant"
+        ]
+      },
+      "experts": [
+        "Asha",
+        "Qdrant"
+      ],
+      "systems": [
+        "Qdrant"
+      ],
+      "metadata": {
+        "employee_name": "Asha",
+        "skills": [
+          "qdrant",
+          "vector search",
+          "rag"
+        ],
+        "systems": [
+          "Qdrant"
+        ],
+        "source_system": "pytest_fixtures"
+      },
+      "created_at": "2026-06-08T15:57:43.518896Z"
     }
   ],
   "top_experts": [
@@ -15506,7 +16244,7 @@
       }
     },
     {
-      "id": "employee:emp-omar-b934fd8c6cd949a4a6c31c28d1e943d6",
+      "id": "employee:emp-omar-fbad5b06820f4d99b3467d33b6fe51c2",
       "label": "Omar",
       "type": "Employee",
       "score": 76.0,
@@ -20113,6 +20851,276 @@
       "metadata": {
         "source_type": "xlsx"
       }
+    },
+    {
+      "id": "document:fixture-kubernetes-23bb70760ab84dac894be580adfa2330",
+      "label": "Fixture Kubernetes Runbook",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "text"
+      }
+    },
+    {
+      "id": "employee:emp-nina-23bb70760ab84dac894be580adfa2330",
+      "label": "Nina",
+      "type": "Employee",
+      "score": 76.0,
+      "metadata": {
+        "department": "Platform",
+        "team": "Reliability"
+      }
+    },
+    {
+      "id": "incident:e42989664be3",
+      "label": "Nina solved the Zephyr Kubernetes outage marker 23bb70760ab84dac894be580adfa2330 with node r...",
+      "type": "Incident",
+      "score": 86.0,
+      "metadata": {}
+    },
+    {
+      "id": "solution:a3c195571004",
+      "label": "Nina solved the Zephyr Kubernetes outage marker 23bb70760ab84dac894be580adfa2330 with node r...",
+      "type": "Solution",
+      "score": 84.0,
+      "metadata": {}
+    },
+    {
+      "id": "document:fixture-pdf-23bb70760ab84dac894be580adfa2330",
+      "label": "Fixture PDF Payment Failure",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "pdf"
+      }
+    },
+    {
+      "id": "incident:dea946e65ab0",
+      "label": "Priya fixed a payment failure by replaying Kafka events and clearing Redis locks.",
+      "type": "Incident",
+      "score": 86.0,
+      "metadata": {}
+    },
+    {
+      "id": "document:fixture-docx-23bb70760ab84dac894be580adfa2330",
+      "label": "Fixture DOCX Database Outage",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "docx"
+      }
+    },
+    {
+      "id": "incident:46bfa6c92f8e",
+      "label": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding inde...",
+      "type": "Incident",
+      "score": 86.0,
+      "metadata": {}
+    },
+    {
+      "id": "solution:596b2ca36ae8",
+      "label": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding inde...",
+      "type": "Solution",
+      "score": 84.0,
+      "metadata": {}
+    },
+    {
+      "id": "document:fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "label": "Fixture PPTX Project Beta",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "pptx"
+      }
+    },
+    {
+      "id": "document:fixture-xlsx-23bb70760ab84dac894be580adfa2330",
+      "label": "Fixture XLSX Expertise Matrix",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "xlsx"
+      }
+    },
+    {
+      "id": "document:fixture-kubernetes-e24f992875754bac958a5d56c4b40aac",
+      "label": "Fixture Kubernetes Runbook",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "text"
+      }
+    },
+    {
+      "id": "employee:emp-nina-e24f992875754bac958a5d56c4b40aac",
+      "label": "Nina",
+      "type": "Employee",
+      "score": 76.0,
+      "metadata": {
+        "department": "Platform",
+        "team": "Reliability"
+      }
+    },
+    {
+      "id": "incident:812957c9a665",
+      "label": "Nina solved the Zephyr Kubernetes outage marker e24f992875754bac958a5d56c4b40aac with node r...",
+      "type": "Incident",
+      "score": 86.0,
+      "metadata": {}
+    },
+    {
+      "id": "solution:33219253651e",
+      "label": "Nina solved the Zephyr Kubernetes outage marker e24f992875754bac958a5d56c4b40aac with node r...",
+      "type": "Solution",
+      "score": 84.0,
+      "metadata": {}
+    },
+    {
+      "id": "document:fixture-pdf-e24f992875754bac958a5d56c4b40aac",
+      "label": "Fixture PDF Payment Failure",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "pdf"
+      }
+    },
+    {
+      "id": "incident:65d6ef04cba4",
+      "label": "Priya fixed a payment failure by replaying Kafka events and clearing Redis locks.",
+      "type": "Incident",
+      "score": 86.0,
+      "metadata": {}
+    },
+    {
+      "id": "document:fixture-docx-e24f992875754bac958a5d56c4b40aac",
+      "label": "Fixture DOCX Database Outage",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "docx"
+      }
+    },
+    {
+      "id": "incident:db6c75854c90",
+      "label": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding inde...",
+      "type": "Incident",
+      "score": 86.0,
+      "metadata": {}
+    },
+    {
+      "id": "solution:c5c08063db36",
+      "label": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding inde...",
+      "type": "Solution",
+      "score": 84.0,
+      "metadata": {}
+    },
+    {
+      "id": "document:fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "label": "Fixture PPTX Project Beta",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "pptx"
+      }
+    },
+    {
+      "id": "document:fixture-xlsx-e24f992875754bac958a5d56c4b40aac",
+      "label": "Fixture XLSX Expertise Matrix",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "xlsx"
+      }
+    },
+    {
+      "id": "document:fixture-kubernetes-fbad5b06820f4d99b3467d33b6fe51c2",
+      "label": "Fixture Kubernetes Runbook",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "text"
+      }
+    },
+    {
+      "id": "employee:emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+      "label": "Nina",
+      "type": "Employee",
+      "score": 76.0,
+      "metadata": {
+        "department": "Platform",
+        "team": "Reliability"
+      }
+    },
+    {
+      "id": "incident:dfb7f2601422",
+      "label": "Nina solved the Zephyr Kubernetes outage marker fbad5b06820f4d99b3467d33b6fe51c2 with node r...",
+      "type": "Incident",
+      "score": 86.0,
+      "metadata": {}
+    },
+    {
+      "id": "solution:9d54892a6cc4",
+      "label": "Nina solved the Zephyr Kubernetes outage marker fbad5b06820f4d99b3467d33b6fe51c2 with node r...",
+      "type": "Solution",
+      "score": 84.0,
+      "metadata": {}
+    },
+    {
+      "id": "document:fixture-pdf-fbad5b06820f4d99b3467d33b6fe51c2",
+      "label": "Fixture PDF Payment Failure",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "pdf"
+      }
+    },
+    {
+      "id": "incident:49cb0242fe1f",
+      "label": "Priya fixed a payment failure by replaying Kafka events and clearing Redis locks.",
+      "type": "Incident",
+      "score": 86.0,
+      "metadata": {}
+    },
+    {
+      "id": "document:fixture-docx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "label": "Fixture DOCX Database Outage",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "docx"
+      }
+    },
+    {
+      "id": "incident:7ddcd3dc6f29",
+      "label": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding inde...",
+      "type": "Incident",
+      "score": 86.0,
+      "metadata": {}
+    },
+    {
+      "id": "solution:9604cf00aa2e",
+      "label": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding inde...",
+      "type": "Solution",
+      "score": 84.0,
+      "metadata": {}
+    },
+    {
+      "id": "document:fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "label": "Fixture PPTX Project Beta",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "pptx"
+      }
+    },
+    {
+      "id": "document:fixture-xlsx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "label": "Fixture XLSX Expertise Matrix",
+      "type": "Document",
+      "score": 73.0,
+      "metadata": {
+        "source_type": "xlsx"
+      }
     }
   ],
   "graph_edges": [
@@ -22896,28 +23904,28 @@
       "evidence": "Reliability belongs to Platform."
     },
     {
-      "source": "employee:emp-omar-b934fd8c6cd949a4a6c31c28d1e943d6",
+      "source": "employee:emp-omar-fbad5b06820f4d99b3467d33b6fe51c2",
       "target": "document:46d9a29c816c",
       "type": "AUTHORED_OR_MENTIONED",
       "weight": 0.84,
       "evidence": "Omar appears as evidence owner for Uploaded Kubernetes Note."
     },
     {
-      "source": "employee:emp-omar-b934fd8c6cd949a4a6c31c28d1e943d6",
+      "source": "employee:emp-omar-fbad5b06820f4d99b3467d33b6fe51c2",
       "target": "team:reliability",
       "type": "MEMBER_OF",
       "weight": 0.74,
       "evidence": "Omar is associated with Reliability."
     },
     {
-      "source": "employee:emp-omar-b934fd8c6cd949a4a6c31c28d1e943d6",
+      "source": "employee:emp-omar-fbad5b06820f4d99b3467d33b6fe51c2",
       "target": "skill:rollback",
       "type": "HAS_EXPERTISE",
       "weight": 0.9,
       "evidence": "Uploaded Kubernetes Note ties Omar to rollback."
     },
     {
-      "source": "employee:emp-omar-b934fd8c6cd949a4a6c31c28d1e943d6",
+      "source": "employee:emp-omar-fbad5b06820f4d99b3467d33b6fe51c2",
       "target": "skill:kubernetes",
       "type": "HAS_EXPERTISE",
       "weight": 0.9,
@@ -45455,6 +46463,1329 @@
       "type": "DOCUMENTS_SYSTEM",
       "weight": 0.75,
       "evidence": "Fixture XLSX Expertise Matrix documents Qdrant."
+    },
+    {
+      "source": "department:platform",
+      "target": "team:reliability",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Reliability belongs to Platform."
+    },
+    {
+      "source": "employee:emp-nina-23bb70760ab84dac894be580adfa2330",
+      "target": "document:fixture-kubernetes-23bb70760ab84dac894be580adfa2330",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Nina appears as evidence owner for Fixture Kubernetes Runbook."
+    },
+    {
+      "source": "employee:emp-nina-23bb70760ab84dac894be580adfa2330",
+      "target": "team:reliability",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Nina is associated with Reliability."
+    },
+    {
+      "source": "employee:emp-nina-23bb70760ab84dac894be580adfa2330",
+      "target": "skill:failover",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to failover."
+    },
+    {
+      "source": "employee:emp-nina-23bb70760ab84dac894be580adfa2330",
+      "target": "skill:incident-response",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to incident response."
+    },
+    {
+      "source": "employee:emp-nina-23bb70760ab84dac894be580adfa2330",
+      "target": "skill:node-recovery",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to node recovery."
+    },
+    {
+      "source": "employee:emp-nina-23bb70760ab84dac894be580adfa2330",
+      "target": "skill:rollback",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to rollback."
+    },
+    {
+      "source": "employee:emp-nina-23bb70760ab84dac894be580adfa2330",
+      "target": "skill:sop",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to sop."
+    },
+    {
+      "source": "employee:emp-nina-23bb70760ab84dac894be580adfa2330",
+      "target": "skill:kubernetes",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to kubernetes."
+    },
+    {
+      "source": "document:fixture-kubernetes-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:helm",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture Kubernetes Runbook references helm."
+    },
+    {
+      "source": "document:fixture-kubernetes-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:kubernetes",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture Kubernetes Runbook references kubernetes."
+    },
+    {
+      "source": "document:fixture-kubernetes-23bb70760ab84dac894be580adfa2330",
+      "target": "system:kubernetes-platform",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture Kubernetes Runbook documents Kubernetes Platform."
+    },
+    {
+      "source": "document:fixture-kubernetes-23bb70760ab84dac894be580adfa2330",
+      "target": "incident:e42989664be3",
+      "type": "CONTAINS_INCIDENT",
+      "weight": 0.88,
+      "evidence": "Nina solved the Zephyr Kubernetes outage marker 23bb70760ab84dac894be580adfa2330 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+    },
+    {
+      "source": "incident:e42989664be3",
+      "target": "solution:a3c195571004",
+      "type": "RESOLVED_BY",
+      "weight": 0.91,
+      "evidence": "Nina solved the Zephyr Kubernetes outage marker 23bb70760ab84dac894be580adfa2330 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+    },
+    {
+      "source": "document:fixture-kubernetes-23bb70760ab84dac894be580adfa2330",
+      "target": "solution:a3c195571004",
+      "type": "CONTAINS_SOLUTION",
+      "weight": 0.82,
+      "evidence": "Nina solved the Zephyr Kubernetes outage marker 23bb70760ab84dac894be580adfa2330 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:priya",
+      "target": "document:fixture-pdf-23bb70760ab84dac894be580adfa2330",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Priya appears as evidence owner for Fixture PDF Payment Failure."
+    },
+    {
+      "source": "employee:priya",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Priya is associated with Knowledge."
+    },
+    {
+      "source": "employee:priya",
+      "target": "skill:payment-failure",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture PDF Payment Failure ties Priya to payment failure."
+    },
+    {
+      "source": "document:fixture-pdf-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:kafka",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PDF Payment Failure references kafka."
+    },
+    {
+      "source": "document:fixture-pdf-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:redis",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PDF Payment Failure references redis."
+    },
+    {
+      "source": "document:fixture-pdf-23bb70760ab84dac894be580adfa2330",
+      "target": "system:payment-api",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture PDF Payment Failure documents Payment API."
+    },
+    {
+      "source": "document:fixture-pdf-23bb70760ab84dac894be580adfa2330",
+      "target": "incident:dea946e65ab0",
+      "type": "CONTAINS_INCIDENT",
+      "weight": 0.88,
+      "evidence": "Priya fixed a payment failure by replaying Kafka events and clearing Redis locks."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "document:fixture-docx-23bb70760ab84dac894be580adfa2330",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Sarah appears as evidence owner for Fixture DOCX Database Outage."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Sarah is associated with Knowledge."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "skill:database-recovery",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture DOCX Database Outage ties Sarah to database recovery."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "skill:postgresql",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture DOCX Database Outage ties Sarah to postgresql."
+    },
+    {
+      "source": "document:fixture-docx-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:postgresql",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture DOCX Database Outage references postgresql."
+    },
+    {
+      "source": "document:fixture-docx-23bb70760ab84dac894be580adfa2330",
+      "target": "system:postgresql-cluster",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture DOCX Database Outage documents PostgreSQL Cluster."
+    },
+    {
+      "source": "document:fixture-docx-23bb70760ab84dac894be580adfa2330",
+      "target": "incident:46bfa6c92f8e",
+      "type": "CONTAINS_INCIDENT",
+      "weight": 0.88,
+      "evidence": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+    },
+    {
+      "source": "incident:46bfa6c92f8e",
+      "target": "solution:596b2ca36ae8",
+      "type": "RESOLVED_BY",
+      "weight": 0.91,
+      "evidence": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+    },
+    {
+      "source": "document:fixture-docx-23bb70760ab84dac894be580adfa2330",
+      "target": "solution:596b2ca36ae8",
+      "type": "CONTAINS_SOLUTION",
+      "weight": 0.82,
+      "evidence": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:david",
+      "target": "document:fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "David appears as evidence owner for Fixture PPTX Project Beta."
+    },
+    {
+      "source": "employee:david",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "David is associated with Knowledge."
+    },
+    {
+      "source": "employee:david",
+      "target": "skill:architecture-decision",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture PPTX Project Beta ties David to architecture decision."
+    },
+    {
+      "source": "employee:david",
+      "target": "project:project-beta",
+      "type": "WORKED_ON",
+      "weight": 0.82,
+      "evidence": "Fixture PPTX Project Beta associates David with Project Beta."
+    },
+    {
+      "source": "document:fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:fastapi",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references fastapi."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:fastapi",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses fastapi."
+    },
+    {
+      "source": "document:fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:kafka",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references kafka."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:kafka",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses kafka."
+    },
+    {
+      "source": "document:fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:neo4j",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references neo4j."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:neo4j",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses neo4j."
+    },
+    {
+      "source": "document:fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:next-js",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references next.js."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:next-js",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses next.js."
+    },
+    {
+      "source": "document:fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:qdrant",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references qdrant."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:qdrant",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses qdrant."
+    },
+    {
+      "source": "document:fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:spark",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references spark."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:spark",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses spark."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:asha",
+      "target": "document:fixture-xlsx-23bb70760ab84dac894be580adfa2330",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Asha appears as evidence owner for Fixture XLSX Expertise Matrix."
+    },
+    {
+      "source": "employee:asha",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Asha is associated with Knowledge."
+    },
+    {
+      "source": "employee:asha",
+      "target": "skill:rag",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Asha to rag."
+    },
+    {
+      "source": "employee:asha",
+      "target": "skill:vector-search",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Asha to vector search."
+    },
+    {
+      "source": "employee:asha",
+      "target": "skill:qdrant",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Asha to qdrant."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "document:fixture-xlsx-23bb70760ab84dac894be580adfa2330",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Qdrant appears as evidence owner for Fixture XLSX Expertise Matrix."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Qdrant is associated with Knowledge."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "skill:rag",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Qdrant to rag."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "skill:vector-search",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Qdrant to vector search."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "skill:qdrant",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Qdrant to qdrant."
+    },
+    {
+      "source": "document:fixture-xlsx-23bb70760ab84dac894be580adfa2330",
+      "target": "technology:qdrant",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture XLSX Expertise Matrix references qdrant."
+    },
+    {
+      "source": "document:fixture-xlsx-23bb70760ab84dac894be580adfa2330",
+      "target": "system:qdrant",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture XLSX Expertise Matrix documents Qdrant."
+    },
+    {
+      "source": "department:platform",
+      "target": "team:reliability",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Reliability belongs to Platform."
+    },
+    {
+      "source": "employee:emp-nina-e24f992875754bac958a5d56c4b40aac",
+      "target": "document:fixture-kubernetes-e24f992875754bac958a5d56c4b40aac",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Nina appears as evidence owner for Fixture Kubernetes Runbook."
+    },
+    {
+      "source": "employee:emp-nina-e24f992875754bac958a5d56c4b40aac",
+      "target": "team:reliability",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Nina is associated with Reliability."
+    },
+    {
+      "source": "employee:emp-nina-e24f992875754bac958a5d56c4b40aac",
+      "target": "skill:failover",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to failover."
+    },
+    {
+      "source": "employee:emp-nina-e24f992875754bac958a5d56c4b40aac",
+      "target": "skill:incident-response",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to incident response."
+    },
+    {
+      "source": "employee:emp-nina-e24f992875754bac958a5d56c4b40aac",
+      "target": "skill:node-recovery",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to node recovery."
+    },
+    {
+      "source": "employee:emp-nina-e24f992875754bac958a5d56c4b40aac",
+      "target": "skill:rollback",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to rollback."
+    },
+    {
+      "source": "employee:emp-nina-e24f992875754bac958a5d56c4b40aac",
+      "target": "skill:sop",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to sop."
+    },
+    {
+      "source": "employee:emp-nina-e24f992875754bac958a5d56c4b40aac",
+      "target": "skill:kubernetes",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to kubernetes."
+    },
+    {
+      "source": "document:fixture-kubernetes-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:helm",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture Kubernetes Runbook references helm."
+    },
+    {
+      "source": "document:fixture-kubernetes-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:kubernetes",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture Kubernetes Runbook references kubernetes."
+    },
+    {
+      "source": "document:fixture-kubernetes-e24f992875754bac958a5d56c4b40aac",
+      "target": "system:kubernetes-platform",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture Kubernetes Runbook documents Kubernetes Platform."
+    },
+    {
+      "source": "document:fixture-kubernetes-e24f992875754bac958a5d56c4b40aac",
+      "target": "incident:812957c9a665",
+      "type": "CONTAINS_INCIDENT",
+      "weight": 0.88,
+      "evidence": "Nina solved the Zephyr Kubernetes outage marker e24f992875754bac958a5d56c4b40aac with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+    },
+    {
+      "source": "incident:812957c9a665",
+      "target": "solution:33219253651e",
+      "type": "RESOLVED_BY",
+      "weight": 0.91,
+      "evidence": "Nina solved the Zephyr Kubernetes outage marker e24f992875754bac958a5d56c4b40aac with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+    },
+    {
+      "source": "document:fixture-kubernetes-e24f992875754bac958a5d56c4b40aac",
+      "target": "solution:33219253651e",
+      "type": "CONTAINS_SOLUTION",
+      "weight": 0.82,
+      "evidence": "Nina solved the Zephyr Kubernetes outage marker e24f992875754bac958a5d56c4b40aac with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:priya",
+      "target": "document:fixture-pdf-e24f992875754bac958a5d56c4b40aac",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Priya appears as evidence owner for Fixture PDF Payment Failure."
+    },
+    {
+      "source": "employee:priya",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Priya is associated with Knowledge."
+    },
+    {
+      "source": "employee:priya",
+      "target": "skill:payment-failure",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture PDF Payment Failure ties Priya to payment failure."
+    },
+    {
+      "source": "document:fixture-pdf-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:kafka",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PDF Payment Failure references kafka."
+    },
+    {
+      "source": "document:fixture-pdf-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:redis",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PDF Payment Failure references redis."
+    },
+    {
+      "source": "document:fixture-pdf-e24f992875754bac958a5d56c4b40aac",
+      "target": "system:payment-api",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture PDF Payment Failure documents Payment API."
+    },
+    {
+      "source": "document:fixture-pdf-e24f992875754bac958a5d56c4b40aac",
+      "target": "incident:65d6ef04cba4",
+      "type": "CONTAINS_INCIDENT",
+      "weight": 0.88,
+      "evidence": "Priya fixed a payment failure by replaying Kafka events and clearing Redis locks."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "document:fixture-docx-e24f992875754bac958a5d56c4b40aac",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Sarah appears as evidence owner for Fixture DOCX Database Outage."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Sarah is associated with Knowledge."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "skill:database-recovery",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture DOCX Database Outage ties Sarah to database recovery."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "skill:postgresql",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture DOCX Database Outage ties Sarah to postgresql."
+    },
+    {
+      "source": "document:fixture-docx-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:postgresql",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture DOCX Database Outage references postgresql."
+    },
+    {
+      "source": "document:fixture-docx-e24f992875754bac958a5d56c4b40aac",
+      "target": "system:postgresql-cluster",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture DOCX Database Outage documents PostgreSQL Cluster."
+    },
+    {
+      "source": "document:fixture-docx-e24f992875754bac958a5d56c4b40aac",
+      "target": "incident:db6c75854c90",
+      "type": "CONTAINS_INCIDENT",
+      "weight": 0.88,
+      "evidence": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+    },
+    {
+      "source": "incident:db6c75854c90",
+      "target": "solution:c5c08063db36",
+      "type": "RESOLVED_BY",
+      "weight": 0.91,
+      "evidence": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+    },
+    {
+      "source": "document:fixture-docx-e24f992875754bac958a5d56c4b40aac",
+      "target": "solution:c5c08063db36",
+      "type": "CONTAINS_SOLUTION",
+      "weight": 0.82,
+      "evidence": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:david",
+      "target": "document:fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "David appears as evidence owner for Fixture PPTX Project Beta."
+    },
+    {
+      "source": "employee:david",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "David is associated with Knowledge."
+    },
+    {
+      "source": "employee:david",
+      "target": "skill:architecture-decision",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture PPTX Project Beta ties David to architecture decision."
+    },
+    {
+      "source": "employee:david",
+      "target": "project:project-beta",
+      "type": "WORKED_ON",
+      "weight": 0.82,
+      "evidence": "Fixture PPTX Project Beta associates David with Project Beta."
+    },
+    {
+      "source": "document:fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:fastapi",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references fastapi."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:fastapi",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses fastapi."
+    },
+    {
+      "source": "document:fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:kafka",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references kafka."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:kafka",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses kafka."
+    },
+    {
+      "source": "document:fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:neo4j",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references neo4j."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:neo4j",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses neo4j."
+    },
+    {
+      "source": "document:fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:next-js",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references next.js."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:next-js",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses next.js."
+    },
+    {
+      "source": "document:fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:qdrant",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references qdrant."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:qdrant",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses qdrant."
+    },
+    {
+      "source": "document:fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:spark",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references spark."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:spark",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses spark."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:asha",
+      "target": "document:fixture-xlsx-e24f992875754bac958a5d56c4b40aac",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Asha appears as evidence owner for Fixture XLSX Expertise Matrix."
+    },
+    {
+      "source": "employee:asha",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Asha is associated with Knowledge."
+    },
+    {
+      "source": "employee:asha",
+      "target": "skill:rag",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Asha to rag."
+    },
+    {
+      "source": "employee:asha",
+      "target": "skill:vector-search",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Asha to vector search."
+    },
+    {
+      "source": "employee:asha",
+      "target": "skill:qdrant",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Asha to qdrant."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "document:fixture-xlsx-e24f992875754bac958a5d56c4b40aac",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Qdrant appears as evidence owner for Fixture XLSX Expertise Matrix."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Qdrant is associated with Knowledge."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "skill:rag",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Qdrant to rag."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "skill:vector-search",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Qdrant to vector search."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "skill:qdrant",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Qdrant to qdrant."
+    },
+    {
+      "source": "document:fixture-xlsx-e24f992875754bac958a5d56c4b40aac",
+      "target": "technology:qdrant",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture XLSX Expertise Matrix references qdrant."
+    },
+    {
+      "source": "document:fixture-xlsx-e24f992875754bac958a5d56c4b40aac",
+      "target": "system:qdrant",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture XLSX Expertise Matrix documents Qdrant."
+    },
+    {
+      "source": "department:platform",
+      "target": "team:reliability",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Reliability belongs to Platform."
+    },
+    {
+      "source": "employee:emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "document:fixture-kubernetes-fbad5b06820f4d99b3467d33b6fe51c2",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Nina appears as evidence owner for Fixture Kubernetes Runbook."
+    },
+    {
+      "source": "employee:emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "team:reliability",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Nina is associated with Reliability."
+    },
+    {
+      "source": "employee:emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "skill:failover",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to failover."
+    },
+    {
+      "source": "employee:emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "skill:incident-response",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to incident response."
+    },
+    {
+      "source": "employee:emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "skill:node-recovery",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to node recovery."
+    },
+    {
+      "source": "employee:emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "skill:rollback",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to rollback."
+    },
+    {
+      "source": "employee:emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "skill:sop",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to sop."
+    },
+    {
+      "source": "employee:emp-nina-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "skill:kubernetes",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture Kubernetes Runbook ties Nina to kubernetes."
+    },
+    {
+      "source": "document:fixture-kubernetes-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:helm",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture Kubernetes Runbook references helm."
+    },
+    {
+      "source": "document:fixture-kubernetes-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:kubernetes",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture Kubernetes Runbook references kubernetes."
+    },
+    {
+      "source": "document:fixture-kubernetes-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "system:kubernetes-platform",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture Kubernetes Runbook documents Kubernetes Platform."
+    },
+    {
+      "source": "document:fixture-kubernetes-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "incident:dfb7f2601422",
+      "type": "CONTAINS_INCIDENT",
+      "weight": 0.88,
+      "evidence": "Nina solved the Zephyr Kubernetes outage marker fbad5b06820f4d99b3467d33b6fe51c2 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+    },
+    {
+      "source": "incident:dfb7f2601422",
+      "target": "solution:9d54892a6cc4",
+      "type": "RESOLVED_BY",
+      "weight": 0.91,
+      "evidence": "Nina solved the Zephyr Kubernetes outage marker fbad5b06820f4d99b3467d33b6fe51c2 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+    },
+    {
+      "source": "document:fixture-kubernetes-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "solution:9d54892a6cc4",
+      "type": "CONTAINS_SOLUTION",
+      "weight": 0.82,
+      "evidence": "Nina solved the Zephyr Kubernetes outage marker fbad5b06820f4d99b3467d33b6fe51c2 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:priya",
+      "target": "document:fixture-pdf-fbad5b06820f4d99b3467d33b6fe51c2",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Priya appears as evidence owner for Fixture PDF Payment Failure."
+    },
+    {
+      "source": "employee:priya",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Priya is associated with Knowledge."
+    },
+    {
+      "source": "employee:priya",
+      "target": "skill:payment-failure",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture PDF Payment Failure ties Priya to payment failure."
+    },
+    {
+      "source": "document:fixture-pdf-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:kafka",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PDF Payment Failure references kafka."
+    },
+    {
+      "source": "document:fixture-pdf-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:redis",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PDF Payment Failure references redis."
+    },
+    {
+      "source": "document:fixture-pdf-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "system:payment-api",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture PDF Payment Failure documents Payment API."
+    },
+    {
+      "source": "document:fixture-pdf-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "incident:49cb0242fe1f",
+      "type": "CONTAINS_INCIDENT",
+      "weight": 0.88,
+      "evidence": "Priya fixed a payment failure by replaying Kafka events and clearing Redis locks."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "document:fixture-docx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Sarah appears as evidence owner for Fixture DOCX Database Outage."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Sarah is associated with Knowledge."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "skill:database-recovery",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture DOCX Database Outage ties Sarah to database recovery."
+    },
+    {
+      "source": "employee:sarah",
+      "target": "skill:postgresql",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture DOCX Database Outage ties Sarah to postgresql."
+    },
+    {
+      "source": "document:fixture-docx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:postgresql",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture DOCX Database Outage references postgresql."
+    },
+    {
+      "source": "document:fixture-docx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "system:postgresql-cluster",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture DOCX Database Outage documents PostgreSQL Cluster."
+    },
+    {
+      "source": "document:fixture-docx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "incident:7ddcd3dc6f29",
+      "type": "CONTAINS_INCIDENT",
+      "weight": 0.88,
+      "evidence": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+    },
+    {
+      "source": "incident:7ddcd3dc6f29",
+      "target": "solution:9604cf00aa2e",
+      "type": "RESOLVED_BY",
+      "weight": 0.91,
+      "evidence": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+    },
+    {
+      "source": "document:fixture-docx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "solution:9604cf00aa2e",
+      "type": "CONTAINS_SOLUTION",
+      "weight": 0.82,
+      "evidence": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:david",
+      "target": "document:fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "David appears as evidence owner for Fixture PPTX Project Beta."
+    },
+    {
+      "source": "employee:david",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "David is associated with Knowledge."
+    },
+    {
+      "source": "employee:david",
+      "target": "skill:architecture-decision",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture PPTX Project Beta ties David to architecture decision."
+    },
+    {
+      "source": "employee:david",
+      "target": "project:project-beta",
+      "type": "WORKED_ON",
+      "weight": 0.82,
+      "evidence": "Fixture PPTX Project Beta associates David with Project Beta."
+    },
+    {
+      "source": "document:fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:fastapi",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references fastapi."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:fastapi",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses fastapi."
+    },
+    {
+      "source": "document:fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:kafka",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references kafka."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:kafka",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses kafka."
+    },
+    {
+      "source": "document:fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:neo4j",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references neo4j."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:neo4j",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses neo4j."
+    },
+    {
+      "source": "document:fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:next-js",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references next.js."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:next-js",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses next.js."
+    },
+    {
+      "source": "document:fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:qdrant",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references qdrant."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:qdrant",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses qdrant."
+    },
+    {
+      "source": "document:fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:spark",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture PPTX Project Beta references spark."
+    },
+    {
+      "source": "project:project-beta",
+      "target": "technology:spark",
+      "type": "USES_TECHNOLOGY",
+      "weight": 0.83,
+      "evidence": "Project Beta uses spark."
+    },
+    {
+      "source": "department:enterprise",
+      "target": "team:knowledge",
+      "type": "OWNS_TEAM",
+      "weight": 0.7,
+      "evidence": "Knowledge belongs to Enterprise."
+    },
+    {
+      "source": "employee:asha",
+      "target": "document:fixture-xlsx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Asha appears as evidence owner for Fixture XLSX Expertise Matrix."
+    },
+    {
+      "source": "employee:asha",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Asha is associated with Knowledge."
+    },
+    {
+      "source": "employee:asha",
+      "target": "skill:rag",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Asha to rag."
+    },
+    {
+      "source": "employee:asha",
+      "target": "skill:vector-search",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Asha to vector search."
+    },
+    {
+      "source": "employee:asha",
+      "target": "skill:qdrant",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Asha to qdrant."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "document:fixture-xlsx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "type": "AUTHORED_OR_MENTIONED",
+      "weight": 0.84,
+      "evidence": "Qdrant appears as evidence owner for Fixture XLSX Expertise Matrix."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "team:knowledge",
+      "type": "MEMBER_OF",
+      "weight": 0.74,
+      "evidence": "Qdrant is associated with Knowledge."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "skill:rag",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Qdrant to rag."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "skill:vector-search",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Qdrant to vector search."
+    },
+    {
+      "source": "employee:qdrant",
+      "target": "skill:qdrant",
+      "type": "HAS_EXPERTISE",
+      "weight": 0.9,
+      "evidence": "Fixture XLSX Expertise Matrix ties Qdrant to qdrant."
+    },
+    {
+      "source": "document:fixture-xlsx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "technology:qdrant",
+      "type": "REFERENCES_TECHNOLOGY",
+      "weight": 0.78,
+      "evidence": "Fixture XLSX Expertise Matrix references qdrant."
+    },
+    {
+      "source": "document:fixture-xlsx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "target": "system:qdrant",
+      "type": "DOCUMENTS_SYSTEM",
+      "weight": 0.75,
+      "evidence": "Fixture XLSX Expertise Matrix documents Qdrant."
     }
   ],
   "technology_map": [
@@ -45955,7 +48286,7 @@
   "organizational_memory_timeline": [
     {
       "event_id": "timeline-seed-kubernetes-outage-solution",
-      "occurred_at": "2026-06-08T14:18:56.620433Z",
+      "occurred_at": "2026-06-09T03:30:09.721753Z",
       "event_type": "incident",
       "title": "Kubernetes Production Outage Recovery",
       "summary": "During the Kubernetes production outage, John recovered the cluster by cordoning the failing node, running node recovery, validating Helm rollback, replaying Redis Streams, and restoring ingress failover.",
@@ -45977,7 +48308,7 @@
     },
     {
       "event_id": "timeline-seed-postgresql-database-outage",
-      "occurred_at": "2026-06-08T14:18:56.620433Z",
+      "occurred_at": "2026-06-09T03:30:09.721753Z",
       "event_type": "incident",
       "title": "PostgreSQL Database Outage Postmortem",
       "summary": "The last PostgreSQL database outage was caused by replica lag, exhausted write-ahead log retention, and a missing vacuum runbook.",
@@ -46000,7 +48331,7 @@
     },
     {
       "event_id": "timeline-seed-project-beta-architecture",
-      "occurred_at": "2026-06-08T14:18:56.620433Z",
+      "occurred_at": "2026-06-09T03:30:09.721753Z",
       "event_type": "project",
       "title": "Project Beta Architecture Decision Record",
       "summary": "Project Beta Architecture Decision Record indexed with 4 skill signal(s) and 3 system link(s).",
@@ -46025,7 +48356,7 @@
     },
     {
       "event_id": "timeline-seed-payment-failure-runbook",
-      "occurred_at": "2026-06-08T14:18:56.620433Z",
+      "occurred_at": "2026-06-09T03:30:09.721753Z",
       "event_type": "incident",
       "title": "Payment API Failure Resolution Runbook",
       "summary": "Previous payment failure incidents were solved by checking Stripe webhook idempotency, clearing stuck Redis locks, replaying Kafka payment events, and using FastAPI retry backoff.",
@@ -46048,7 +48379,7 @@
     },
     {
       "event_id": "timeline-loss-klp-001",
-      "occurred_at": "2026-06-08T14:18:56.620433Z",
+      "occurred_at": "2026-06-09T03:30:09.721753Z",
       "event_type": "incident",
       "title": "Kubernetes Production Recovery Discussion",
       "summary": "Bianca explained the Kubernetes platform rollback sequence, ingress failover, Helm release validation, Redis stream recovery, and production cluster node-drain process after the checkout outage.",
@@ -46071,7 +48402,7 @@
     },
     {
       "event_id": "timeline-loss-klp-002",
-      "occurred_at": "2026-06-08T14:18:56.620433Z",
+      "occurred_at": "2026-06-09T03:30:09.721753Z",
       "event_type": "decision",
       "title": "Model Registry Release Notes",
       "summary": "Devika documented the model registry promotion workflow, MLOps rollback criteria, feature-store lineage checks, and inference service validation for regulated model deployments.",
@@ -46093,7 +48424,7 @@
     },
     {
       "event_id": "timeline-loss-klp-003",
-      "occurred_at": "2026-06-08T14:18:56.620433Z",
+      "occurred_at": "2026-06-09T03:30:09.721753Z",
       "event_type": "incident",
       "title": "Security Gateway Incident Ticket",
       "summary": "Aarav resolved privileged token rotation, FastAPI gateway throttling, PostgreSQL audit queries, and zero trust session validation during the admin-export incident.",
@@ -46115,7 +48446,7 @@
     },
     {
       "event_id": "timeline-loss-klp-004",
-      "occurred_at": "2026-06-08T14:18:56.620433Z",
+      "occurred_at": "2026-06-09T03:30:09.721753Z",
       "event_type": "decision",
       "title": "Frontend Dashboard Architecture Review",
       "summary": "Frontend Dashboard Architecture Review indexed with 3 skill signal(s) and 1 system link(s).",
@@ -46136,7 +48467,7 @@
     },
     {
       "event_id": "timeline-loss-klp-005",
-      "occurred_at": "2026-06-08T14:18:56.620433Z",
+      "occurred_at": "2026-06-09T03:30:09.721753Z",
       "event_type": "incident",
       "title": "Payment API Jira Escalation",
       "summary": "Rina captured payment API regression patterns, test automation rollback checks, deployment gate criteria, and known failure signatures for checkout release validation.",
@@ -46158,7 +48489,7 @@
     },
     {
       "event_id": "timeline-46d9a29c816c",
-      "occurred_at": "2026-06-08T04:05:20.260882Z",
+      "occurred_at": "2026-06-08T15:57:53.514447Z",
       "event_type": "decision",
       "title": "Uploaded Kubernetes Note",
       "summary": "Uploaded note: Omar documented Kubernetes pod eviction recovery and Helm rollback verification.",
@@ -46174,6 +48505,309 @@
         "plain_text_parser",
         "rollback",
         "kubernetes"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-xlsx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "occurred_at": "2026-06-08T15:57:43.518896Z",
+      "event_type": "decision",
+      "title": "Fixture XLSX Expertise Matrix",
+      "summary": "Fixture XLSX Expertise Matrix indexed with 3 skill signal(s) and 1 system link(s).",
+      "people": [
+        "Asha",
+        "Qdrant"
+      ],
+      "systems": [
+        "Qdrant"
+      ],
+      "projects": [],
+      "evidence": [
+        "expertise-matrix.xlsx",
+        "xlsx_zip_fallback_parser",
+        "rag",
+        "vector search",
+        "qdrant"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-pptx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "occurred_at": "2026-06-08T15:57:43.018560Z",
+      "event_type": "project",
+      "title": "Fixture PPTX Project Beta",
+      "summary": "Fixture PPTX Project Beta indexed with 1 skill signal(s) and 0 system link(s).",
+      "people": [
+        "David"
+      ],
+      "systems": [],
+      "projects": [
+        "Project Beta"
+      ],
+      "evidence": [
+        "project-beta.pptx",
+        "pptx_zip_fallback_parser",
+        "architecture decision"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-docx-fbad5b06820f4d99b3467d33b6fe51c2",
+      "occurred_at": "2026-06-08T15:57:42.755212Z",
+      "event_type": "incident",
+      "title": "Fixture DOCX Database Outage",
+      "summary": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes.",
+      "people": [
+        "Sarah"
+      ],
+      "systems": [
+        "PostgreSQL Cluster"
+      ],
+      "projects": [],
+      "evidence": [
+        "database-outage.docx",
+        "docx_zip_fallback_parser",
+        "database recovery",
+        "postgresql"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-pdf-fbad5b06820f4d99b3467d33b6fe51c2",
+      "occurred_at": "2026-06-08T15:57:42.475153Z",
+      "event_type": "incident",
+      "title": "Fixture PDF Payment Failure",
+      "summary": "Fixture PDF Payment Failure indexed with 1 skill signal(s) and 1 system link(s).",
+      "people": [
+        "Priya"
+      ],
+      "systems": [
+        "Payment API"
+      ],
+      "projects": [],
+      "evidence": [
+        "payment-failure.pdf",
+        "pdf_text_fallback_parser",
+        "payment failure"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-kubernetes-fbad5b06820f4d99b3467d33b6fe51c2",
+      "occurred_at": "2026-06-08T15:57:42.272821Z",
+      "event_type": "incident",
+      "title": "Fixture Kubernetes Runbook",
+      "summary": "Nina solved the Zephyr Kubernetes outage marker fbad5b06820f4d99b3467d33b6fe51c2 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP.",
+      "people": [
+        "Nina"
+      ],
+      "systems": [
+        "Kubernetes Platform"
+      ],
+      "projects": [],
+      "evidence": [
+        "fixture-kubernetes-runbook.txt",
+        "plain_text_parser",
+        "failover",
+        "incident response",
+        "node recovery"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-xlsx-e24f992875754bac958a5d56c4b40aac",
+      "occurred_at": "2026-06-08T15:32:21.540714Z",
+      "event_type": "decision",
+      "title": "Fixture XLSX Expertise Matrix",
+      "summary": "Fixture XLSX Expertise Matrix indexed with 3 skill signal(s) and 1 system link(s).",
+      "people": [
+        "Asha",
+        "Qdrant"
+      ],
+      "systems": [
+        "Qdrant"
+      ],
+      "projects": [],
+      "evidence": [
+        "expertise-matrix.xlsx",
+        "xlsx_zip_fallback_parser",
+        "rag",
+        "vector search",
+        "qdrant"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-pptx-e24f992875754bac958a5d56c4b40aac",
+      "occurred_at": "2026-06-08T15:32:21.026968Z",
+      "event_type": "project",
+      "title": "Fixture PPTX Project Beta",
+      "summary": "Fixture PPTX Project Beta indexed with 1 skill signal(s) and 0 system link(s).",
+      "people": [
+        "David"
+      ],
+      "systems": [],
+      "projects": [
+        "Project Beta"
+      ],
+      "evidence": [
+        "project-beta.pptx",
+        "pptx_zip_fallback_parser",
+        "architecture decision"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-docx-e24f992875754bac958a5d56c4b40aac",
+      "occurred_at": "2026-06-08T15:32:20.736506Z",
+      "event_type": "incident",
+      "title": "Fixture DOCX Database Outage",
+      "summary": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes.",
+      "people": [
+        "Sarah"
+      ],
+      "systems": [
+        "PostgreSQL Cluster"
+      ],
+      "projects": [],
+      "evidence": [
+        "database-outage.docx",
+        "docx_zip_fallback_parser",
+        "database recovery",
+        "postgresql"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-pdf-e24f992875754bac958a5d56c4b40aac",
+      "occurred_at": "2026-06-08T15:32:20.449098Z",
+      "event_type": "incident",
+      "title": "Fixture PDF Payment Failure",
+      "summary": "Fixture PDF Payment Failure indexed with 1 skill signal(s) and 1 system link(s).",
+      "people": [
+        "Priya"
+      ],
+      "systems": [
+        "Payment API"
+      ],
+      "projects": [],
+      "evidence": [
+        "payment-failure.pdf",
+        "pdf_text_fallback_parser",
+        "payment failure"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-kubernetes-e24f992875754bac958a5d56c4b40aac",
+      "occurred_at": "2026-06-08T15:32:20.246047Z",
+      "event_type": "incident",
+      "title": "Fixture Kubernetes Runbook",
+      "summary": "Nina solved the Zephyr Kubernetes outage marker e24f992875754bac958a5d56c4b40aac with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP.",
+      "people": [
+        "Nina"
+      ],
+      "systems": [
+        "Kubernetes Platform"
+      ],
+      "projects": [],
+      "evidence": [
+        "fixture-kubernetes-runbook.txt",
+        "plain_text_parser",
+        "failover",
+        "incident response",
+        "node recovery"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-xlsx-23bb70760ab84dac894be580adfa2330",
+      "occurred_at": "2026-06-08T15:13:41.570456Z",
+      "event_type": "decision",
+      "title": "Fixture XLSX Expertise Matrix",
+      "summary": "Fixture XLSX Expertise Matrix indexed with 3 skill signal(s) and 1 system link(s).",
+      "people": [
+        "Asha",
+        "Qdrant"
+      ],
+      "systems": [
+        "Qdrant"
+      ],
+      "projects": [],
+      "evidence": [
+        "expertise-matrix.xlsx",
+        "xlsx_zip_fallback_parser",
+        "rag",
+        "vector search",
+        "qdrant"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-pptx-23bb70760ab84dac894be580adfa2330",
+      "occurred_at": "2026-06-08T15:13:40.598812Z",
+      "event_type": "project",
+      "title": "Fixture PPTX Project Beta",
+      "summary": "Fixture PPTX Project Beta indexed with 1 skill signal(s) and 0 system link(s).",
+      "people": [
+        "David"
+      ],
+      "systems": [],
+      "projects": [
+        "Project Beta"
+      ],
+      "evidence": [
+        "project-beta.pptx",
+        "pptx_zip_fallback_parser",
+        "architecture decision"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-docx-23bb70760ab84dac894be580adfa2330",
+      "occurred_at": "2026-06-08T15:13:40.002489Z",
+      "event_type": "incident",
+      "title": "Fixture DOCX Database Outage",
+      "summary": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes.",
+      "people": [
+        "Sarah"
+      ],
+      "systems": [
+        "PostgreSQL Cluster"
+      ],
+      "projects": [],
+      "evidence": [
+        "database-outage.docx",
+        "docx_zip_fallback_parser",
+        "database recovery",
+        "postgresql"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-pdf-23bb70760ab84dac894be580adfa2330",
+      "occurred_at": "2026-06-08T15:13:39.537150Z",
+      "event_type": "incident",
+      "title": "Fixture PDF Payment Failure",
+      "summary": "Fixture PDF Payment Failure indexed with 1 skill signal(s) and 1 system link(s).",
+      "people": [
+        "Priya"
+      ],
+      "systems": [
+        "Payment API"
+      ],
+      "projects": [],
+      "evidence": [
+        "payment-failure.pdf",
+        "pdf_text_fallback_parser",
+        "payment failure"
+      ]
+    },
+    {
+      "event_id": "timeline-fixture-kubernetes-23bb70760ab84dac894be580adfa2330",
+      "occurred_at": "2026-06-08T15:13:39.210986Z",
+      "event_type": "incident",
+      "title": "Fixture Kubernetes Runbook",
+      "summary": "Nina solved the Zephyr Kubernetes outage marker 23bb70760ab84dac894be580adfa2330 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP.",
+      "people": [
+        "Nina"
+      ],
+      "systems": [
+        "Kubernetes Platform"
+      ],
+      "projects": [],
+      "evidence": [
+        "fixture-kubernetes-runbook.txt",
+        "plain_text_parser",
+        "failover",
+        "incident response",
+        "node recovery"
       ]
     },
     {
@@ -46262,309 +48896,6 @@
       "event_type": "incident",
       "title": "Fixture Kubernetes Runbook",
       "summary": "Nina solved the Zephyr Kubernetes outage marker b934fd8c6cd949a4a6c31c28d1e943d6 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP.",
-      "people": [
-        "Nina"
-      ],
-      "systems": [
-        "Kubernetes Platform"
-      ],
-      "projects": [],
-      "evidence": [
-        "fixture-kubernetes-runbook.txt",
-        "plain_text_parser",
-        "failover",
-        "incident response",
-        "node recovery"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-xlsx-f42ea606a7e748f98ab07bec425d6c93",
-      "occurred_at": "2026-06-08T03:41:45.645985Z",
-      "event_type": "decision",
-      "title": "Fixture XLSX Expertise Matrix",
-      "summary": "Fixture XLSX Expertise Matrix indexed with 3 skill signal(s) and 1 system link(s).",
-      "people": [
-        "Asha",
-        "Qdrant"
-      ],
-      "systems": [
-        "Qdrant"
-      ],
-      "projects": [],
-      "evidence": [
-        "expertise-matrix.xlsx",
-        "xlsx_zip_fallback_parser",
-        "rag",
-        "vector search",
-        "qdrant"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-pptx-f42ea606a7e748f98ab07bec425d6c93",
-      "occurred_at": "2026-06-08T03:41:45.048367Z",
-      "event_type": "project",
-      "title": "Fixture PPTX Project Beta",
-      "summary": "Fixture PPTX Project Beta indexed with 1 skill signal(s) and 0 system link(s).",
-      "people": [
-        "David"
-      ],
-      "systems": [],
-      "projects": [
-        "Project Beta"
-      ],
-      "evidence": [
-        "project-beta.pptx",
-        "pptx_zip_fallback_parser",
-        "architecture decision"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-docx-f42ea606a7e748f98ab07bec425d6c93",
-      "occurred_at": "2026-06-08T03:41:44.741724Z",
-      "event_type": "incident",
-      "title": "Fixture DOCX Database Outage",
-      "summary": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes.",
-      "people": [
-        "Sarah"
-      ],
-      "systems": [
-        "PostgreSQL Cluster"
-      ],
-      "projects": [],
-      "evidence": [
-        "database-outage.docx",
-        "docx_zip_fallback_parser",
-        "database recovery",
-        "postgresql"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-pdf-f42ea606a7e748f98ab07bec425d6c93",
-      "occurred_at": "2026-06-08T03:41:43.821927Z",
-      "event_type": "incident",
-      "title": "Fixture PDF Payment Failure",
-      "summary": "Fixture PDF Payment Failure indexed with 1 skill signal(s) and 1 system link(s).",
-      "people": [
-        "Priya"
-      ],
-      "systems": [
-        "Payment API"
-      ],
-      "projects": [],
-      "evidence": [
-        "payment-failure.pdf",
-        "pdf_text_fallback_parser",
-        "payment failure"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-kubernetes-f42ea606a7e748f98ab07bec425d6c93",
-      "occurred_at": "2026-06-08T03:41:43.509787Z",
-      "event_type": "incident",
-      "title": "Fixture Kubernetes Runbook",
-      "summary": "Nina solved the Zephyr Kubernetes outage marker f42ea606a7e748f98ab07bec425d6c93 with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP.",
-      "people": [
-        "Nina"
-      ],
-      "systems": [
-        "Kubernetes Platform"
-      ],
-      "projects": [],
-      "evidence": [
-        "fixture-kubernetes-runbook.txt",
-        "plain_text_parser",
-        "failover",
-        "incident response",
-        "node recovery"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-xlsx-034e991a50494495ba4ca29ee0bbff3d",
-      "occurred_at": "2026-06-08T02:57:34.205259Z",
-      "event_type": "decision",
-      "title": "Fixture XLSX Expertise Matrix",
-      "summary": "Fixture XLSX Expertise Matrix indexed with 3 skill signal(s) and 1 system link(s).",
-      "people": [
-        "Asha",
-        "Qdrant"
-      ],
-      "systems": [
-        "Qdrant"
-      ],
-      "projects": [],
-      "evidence": [
-        "expertise-matrix.xlsx",
-        "xlsx_zip_fallback_parser",
-        "rag",
-        "vector search",
-        "qdrant"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-pptx-034e991a50494495ba4ca29ee0bbff3d",
-      "occurred_at": "2026-06-08T02:57:33.511501Z",
-      "event_type": "project",
-      "title": "Fixture PPTX Project Beta",
-      "summary": "Fixture PPTX Project Beta indexed with 1 skill signal(s) and 0 system link(s).",
-      "people": [
-        "David"
-      ],
-      "systems": [],
-      "projects": [
-        "Project Beta"
-      ],
-      "evidence": [
-        "project-beta.pptx",
-        "pptx_zip_fallback_parser",
-        "architecture decision"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-docx-034e991a50494495ba4ca29ee0bbff3d",
-      "occurred_at": "2026-06-08T02:57:33.153358Z",
-      "event_type": "incident",
-      "title": "Fixture DOCX Database Outage",
-      "summary": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes.",
-      "people": [
-        "Sarah"
-      ],
-      "systems": [
-        "PostgreSQL Cluster"
-      ],
-      "projects": [],
-      "evidence": [
-        "database-outage.docx",
-        "docx_zip_fallback_parser",
-        "database recovery",
-        "postgresql"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-pdf-034e991a50494495ba4ca29ee0bbff3d",
-      "occurred_at": "2026-06-08T02:57:32.807146Z",
-      "event_type": "incident",
-      "title": "Fixture PDF Payment Failure",
-      "summary": "Fixture PDF Payment Failure indexed with 1 skill signal(s) and 1 system link(s).",
-      "people": [
-        "Priya"
-      ],
-      "systems": [
-        "Payment API"
-      ],
-      "projects": [],
-      "evidence": [
-        "payment-failure.pdf",
-        "pdf_text_fallback_parser",
-        "payment failure"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-kubernetes-034e991a50494495ba4ca29ee0bbff3d",
-      "occurred_at": "2026-06-08T02:57:32.480786Z",
-      "event_type": "incident",
-      "title": "Fixture Kubernetes Runbook",
-      "summary": "Nina solved the Zephyr Kubernetes outage marker 034e991a50494495ba4ca29ee0bbff3d with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP.",
-      "people": [
-        "Nina"
-      ],
-      "systems": [
-        "Kubernetes Platform"
-      ],
-      "projects": [],
-      "evidence": [
-        "fixture-kubernetes-runbook.txt",
-        "plain_text_parser",
-        "failover",
-        "incident response",
-        "node recovery"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-xlsx-2cc8f157956f4596951f0f015bc7b5da",
-      "occurred_at": "2026-06-08T02:11:48.426136Z",
-      "event_type": "decision",
-      "title": "Fixture XLSX Expertise Matrix",
-      "summary": "Fixture XLSX Expertise Matrix indexed with 3 skill signal(s) and 1 system link(s).",
-      "people": [
-        "Asha",
-        "Qdrant"
-      ],
-      "systems": [
-        "Qdrant"
-      ],
-      "projects": [],
-      "evidence": [
-        "expertise-matrix.xlsx",
-        "xlsx_zip_fallback_parser",
-        "rag",
-        "vector search",
-        "qdrant"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-pptx-2cc8f157956f4596951f0f015bc7b5da",
-      "occurred_at": "2026-06-08T02:11:47.651099Z",
-      "event_type": "project",
-      "title": "Fixture PPTX Project Beta",
-      "summary": "Fixture PPTX Project Beta indexed with 1 skill signal(s) and 0 system link(s).",
-      "people": [
-        "David"
-      ],
-      "systems": [],
-      "projects": [
-        "Project Beta"
-      ],
-      "evidence": [
-        "project-beta.pptx",
-        "pptx_zip_fallback_parser",
-        "architecture decision"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-docx-2cc8f157956f4596951f0f015bc7b5da",
-      "occurred_at": "2026-06-08T02:11:47.240690Z",
-      "event_type": "incident",
-      "title": "Fixture DOCX Database Outage",
-      "summary": "Sarah restored PostgreSQL after a database outage by promoting a replica and rebuilding indexes.",
-      "people": [
-        "Sarah"
-      ],
-      "systems": [
-        "PostgreSQL Cluster"
-      ],
-      "projects": [],
-      "evidence": [
-        "database-outage.docx",
-        "docx_zip_fallback_parser",
-        "database recovery",
-        "postgresql"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-pdf-2cc8f157956f4596951f0f015bc7b5da",
-      "occurred_at": "2026-06-08T02:11:47.021698Z",
-      "event_type": "incident",
-      "title": "Fixture PDF Payment Failure",
-      "summary": "Fixture PDF Payment Failure indexed with 1 skill signal(s) and 1 system link(s).",
-      "people": [
-        "Priya"
-      ],
-      "systems": [
-        "Payment API"
-      ],
-      "projects": [],
-      "evidence": [
-        "payment-failure.pdf",
-        "pdf_text_fallback_parser",
-        "payment failure"
-      ]
-    },
-    {
-      "event_id": "timeline-fixture-kubernetes-2cc8f157956f4596951f0f015bc7b5da",
-      "occurred_at": "2026-06-08T02:11:45.618398Z",
-      "event_type": "incident",
-      "title": "Fixture Kubernetes Runbook",
-      "summary": "Nina solved the Zephyr Kubernetes outage marker 2cc8f157956f4596951f0f015bc7b5da with node recovery, Helm rollback validation, ingress failover, and a documented disaster recovery SOP.",
       "people": [
         "Nina"
       ],
@@ -46674,7 +49005,7 @@
       "title": "Convert incident memory into runbooks",
       "priority": "medium",
       "action": "Promote incident postmortems with recovered solutions into searchable SOPs.",
-      "rationale": "171 incident-bearing document(s) contain reusable recovery knowledge.",
+      "rationale": "180 incident-bearing document(s) contain reusable recovery knowledge.",
       "expected_impact": 78.0
     },
     {
@@ -46737,7 +49068,7 @@
     {
       "system": "Employee Twin",
       "status": "synced",
-      "update": "70 detected experts are available for employee skill and backup-owner profiles.",
+      "update": "73 detected experts are available for employee skill and backup-owner profiles.",
       "evidence": [
         "Priya",
         "Sarah",
@@ -46772,7 +49103,7 @@
     {
       "system": "Company Twin",
       "status": "synced",
-      "update": "Company memory health is 100.0% with 713 graph nodes.",
+      "update": "Company memory health is 100.0% with 746 graph nodes.",
       "evidence": [
         "knowledge_health_score",
         "graph_nodes",
@@ -46784,7 +49115,7 @@
     {
       "agent": "Knowledge Agent",
       "role": "RAG retrieval and memory governance",
-      "finding": "286 documents and 286 chunks are indexed for cited retrieval.",
+      "finding": "301 documents and 301 chunks are indexed for cited retrieval.",
       "recommendation": "Keep nightly ingestion active for incidents, decisions, client issues, and project documents.",
       "confidence": 0.92,
       "source_systems": [
@@ -46860,10 +49191,10 @@
       "Exposed security controls, digital twin sync, agent council, lessons, and timeline for auditability."
     ],
     "performance_metrics": {
-      "documents_indexed": 286,
-      "chunks_indexed": 286,
-      "graph_nodes": 713,
-      "graph_edges": 3620,
+      "documents_indexed": 301,
+      "chunks_indexed": 301,
+      "graph_nodes": 746,
+      "graph_edges": 3809,
       "retrieval_top_k_limit": 20,
       "stream_interval_seconds": 0.05
     },
